@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Randy Hong"
 title_separator          : "-"
 name                     : &name "Randy Hong"
@@ -23,7 +23,7 @@ repository               : "randyhongg/randyhongg.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_4674.jpeg"
+  avatar           : "website_pfp.jpg"
   name             : "Randy Hong"
   pronouns         : "#he/him"  
   bio              : "Neuroscience Ph.D. Student @ UC Davis"
