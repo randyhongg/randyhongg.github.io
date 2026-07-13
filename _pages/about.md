@@ -11,7 +11,7 @@ redirect_from:
 
 Hello! I'm Randy Hong, a PhD. student in the Neuroscience Graduate Group at the University of California, Davis. I'm from Los Angeles, California—born and raised in the San Fernando Valley. After graduating from high school, I continued my studies across the United States in Geneva, New York at Hobart and William Smith Colleges on a full-tuition scholarship provided by the Posse Foundation. I graduated Summa Cum Laude and was the selected commmencement speaker with my Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.
 
-![alt text](insert image url) # insert image here
+![testing123](images/commencement_speaker.jpg)
 
 ## Research Interests  
 
