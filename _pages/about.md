@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-{: style="text-align: justify; text-align-last: justify;"}
+<div style="text-align: justify; text-align-last: justify;">
 
 ## About Me  
 
-Ph.D. student in the **Neuroscience Graduate Group** at the **University of California, Davis**. Graduated Summa Cum Laude from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.  
+**Ph.D. student** in the **Neuroscience Graduate Group** at the **University of California, Davis**. Graduated Summa Cum Laude from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.  
 
 
 
@@ -33,3 +33,5 @@ Despite our efforts, we understand very little about how the brain communicates 
 
 ## Miscellanous Interests  
 - tbd...
+
+</div>
