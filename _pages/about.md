@@ -23,15 +23,16 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 </div>  
 
+
 **How can we improve our contemporary deep learning algorithms to engineer more efficient neural interfaces that facilitate assistive technologies for patients with motor impairments and limb loss?**  
 
 <div style="text-align: justify; text-align-last: justify;">  
+
 
 Artificial neural networks have provided us with an approach towards translating noisy neural signals into motor function control, evident through the successes of prostheses and brain computer interfaces on the market. However, biological heterogeneity and model architectures that demand high quantities of training data have introduced challenges in making this technology accessible and generalizable. I am interested in using neuroscience and mathematical theory to forge approaches that are more cost efficient and accurate than contemporary methods.  
 
 </div>  
 
-![Neural network](insert image url)
 
 **Can we understand the network dynamics and strategies that facilitate communication across brain networks to build efficient computational algorithms?**  
 
