@@ -11,7 +11,7 @@ redirect_from:
 
 Hello! I'm Randy Hong, a PhD. student in the Neuroscience Graduate Group at the University of California, Davis.
 
-I'm from Los Angeles, California—born and raised in the San Fernando Valley. After graduating from high school, I continued my studies across the United States in Geneva, New York at Hobart and William Smith Colleges on a full-tuition scholarship provided by the Posse Foundation. I graduated Summa Cum Laude and was the selected commmencement speaker with my Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.
+I am a graduate of Hobart and William Smith Colleges and a recipient of the full-tuition Posse Foundation scholarship. I graduated Summa Cum Laude with my Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics. I was also the selected commencement speaker for my graduation.
 
 ![Commencement speaker](images/commencement_speaker.jpg)
 
@@ -25,13 +25,13 @@ Dissecting complex systems became a fascination of mine. The brain, possibly bei
 
 Artificial neural networks have provided us with an approach towards translating noisy neural signals into motor function control, evident through the successes of prostheses and brain computer interfaces on the market. However, biological heterogeneity and model architectures that demand high quantities of training data have introduced challenges in making this technology accessible and generalizable. I am interested in using neuroscience and mathematical theory to forge approaches that are more cost efficient and accurate than current contemporary methods.  
 
-![alt text](insert image url) # insert image here
+![Neural network](insert image url)
 
 **Can we understand the network dynamics and strategies that facilitate communication across brain networks to build efficient computational algorithms?**  
 
 Despite our efforts, we understand very little about how the brain communicates information across its connectome from first principles due to limitations in our measurement tools. Whatever strategy is imposed is clearly very effective and efficient, being able to foster consciousness while consuming the same number of watts as a lightbulb, while only using neurons that are constraint to biophysical restrictions. This is in stark contrast to contemporary artifical intelligence models, which consume high quantities of energy and fail to recreate feats the brain despite their nodes not being subject to biophysical restrictions. I am interested in studying network dynamics, connectome structure, and information passing strategies to develop biologically-inspired computational algorithms that cost efficient and effective.  
 
-![alt text](insert image url) # insert image here
+![Copy spread annihilate](insert image url)
 
 ## Miscellanous Interests  
 - tbd...
