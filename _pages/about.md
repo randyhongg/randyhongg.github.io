@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me  
 
-PhD. student in the Neuroscience Graduate Group at the University of California, Davis. Graduate of Hobart and William Smith Colleges and recipient of the full-tuition Posse Foundation scholarship. Graduated Summa Cum Laude and as the commencement speaker with a Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.  
+PhD. student in the Neuroscience Graduate Group at the University of California, Davis. Graduate of Hobart and William Smith Colleges and recipient of the full-tuition Posse Foundation scholarship. Graduated Summa Cum Laude with a Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.  
 
 ## Research Interests  
 
