@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Randy Hong, a PhD. student in the Neuroscience Graduate Group at the University of California, Davis.
+PhD. student in the Neuroscience Graduate Group at the University of California, Davis. Graduate of Hobart and William Smith Colleges and recipient of the full-tuition Posse Foundation scholarship. Graduated Summa Cum Laude and as the commencement speaker with a Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.  
 
-I am a graduate of Hobart and William Smith Colleges and a recipient of the full-tuition Posse Foundation scholarship. I graduated Summa Cum Laude and as the commencement speaker with my Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.
-
-![Commencement speaker](images/commencement_speaker.jpg)
+![Commencement speaker](images/commencement_speaker.jpg){: .align-center width="300"}
 
 ## Research Interests  
 
