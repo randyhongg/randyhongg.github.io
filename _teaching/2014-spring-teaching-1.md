@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Hobart and William Smith Colleges, Department of Psychological Science"
-date: "Fall 2024"
+date: 
 location: "Geneva, NY"
 ---
 
