@@ -13,20 +13,20 @@ We can record these neural signals at the stump using surface electromyography (
 Consequently, we can engineer a functioning neural prosthetic capable of substituting for an amputee’s missing limb. We demonstrate the recreation of humanistic movement within robotic systems by engineering a motorized prosthetic hand controlled by an Arduino.
 
 <p float="center">
-  <img src="../images/build_hand.jpg" width="49%" />
+  <img src="images/build_hand.jpg" width="49%" />
 </p>
 
 Using sEMG sensors, we record neural signals to perform gesture classification and decipher the user’s hand gesture from a library of preselected gestures. These predicted gestures are communicated to an Arduino that recreates the predicted gesture in the prosthetic via rotation of the appropriate respective servo motors. 
 
 <p float="center">
-  <img src="../images/prosthetic_pose.jpg" width="49%" />
+  <img src="images/prosthetic_pose.jpg" width="49%" />
 </p>
 
 Presented at: Senior Symposium 2026 at HWS, Undergraduate Physics Symposium at the University of Rochester.
 
 <p float="left">
-  <img src="../images/u_roch_present.jpg" width="49%" />
-  <img src="../images/u_roch_team.jpg" width="49%" />
+  <img src="images/u_roch_present.jpg" width="49%" />
+  <img src="images/u_roch_team.jpg" width="49%" />
 </p>
 
 
