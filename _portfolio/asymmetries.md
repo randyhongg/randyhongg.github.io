@@ -4,4 +4,8 @@ excerpt: "Advisor: Professor Daniel Graham Ph.D. & Professor Yan Hao Ph.D., Depa
 collection: portfolio
 ---
 
-testing testing test
+- Introduction: Brief summary of the project, inspiration
+- Materials:
+- Methods:
+- Pictures:
+- Presented at: Senior Symposium 2026, University of Rochester Physics Undergraduate Symposium
