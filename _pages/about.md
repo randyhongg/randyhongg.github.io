@@ -11,8 +11,6 @@ redirect_from:
 
 PhD. student in the Neuroscience Graduate Group at the University of California, Davis. Graduate of Hobart and William Smith Colleges and recipient of the full-tuition Posse Foundation scholarship. Graduated Summa Cum Laude and as the commencement speaker with a Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.  
 
-# ![Commencement speaker](images/commencement_speaker.jpg){: .align-center width="700"}
-
 ## Research Interests  
 
 I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.  
