@@ -11,7 +11,7 @@ redirect_from:
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
   
-Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.  
+Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Summa Cum Laude with Dual Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience, Bachelor of Arts in Public Health, and a minor in Physics.  
 
 </div>  
 
