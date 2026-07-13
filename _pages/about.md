@@ -11,7 +11,7 @@ redirect_from:
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
   
-Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Summa Cum Laude with Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and a minor in Physics.  
+Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and a minor in Physics.  
 
 </div>  
 
@@ -23,7 +23,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 </div>  
 
-**How can we improve our contemporary deep learning algorithms to engineer more efficient neural interfaces that facilitate assistive technologies for patients with motor impairments and limb loss?**  
+**Engineering deep learning algorithms to build more efficient neural interfaces**
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
@@ -31,7 +31,7 @@ Artificial neural networks have provided us with an approach towards translating
 
 </div>  
 
-**Can we understand the network dynamics and strategies that facilitate communication across brain networks to build efficient computational algorithms?**  
+**Understanding network dynamics and routing strategies of neural computation**
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
