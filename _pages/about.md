@@ -11,7 +11,7 @@ redirect_from:
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
   
-Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and a minor in Physics.  
+Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. I graduated Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and a minor in Physics.  
 
 </div>  
 
@@ -38,8 +38,5 @@ Artificial neural networks have provided us with an approach towards translating
 Despite our efforts, we understand very little about how the brain communicates information across its connectome from first principles due to limitations in our measurement tools. Whatever strategy is imposed is clearly very effective and efficient, being able to foster consciousness while consuming the same number of watts as a lightbulb, while only using neurons that are constraint to biophysical restrictions. This is in stark contrast to contemporary artifical intelligence models, which consume high quantities of energy and fail to recreate feats of the brain despite their nodes not being subject to biophysical restrictions. I am interested in studying network dynamics, connectome structure, and information passing strategies to develop biologically-inspired computational algorithms that cost efficient and effective.  
 
 </div>  
-
-## Miscellanous Interests  
-- tbd...
 
 
