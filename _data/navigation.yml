@@ -12,13 +12,7 @@ main:
     url: /portfolio/
   
   - title: "Presentations"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "CV"
-    url: /cv/
+    url: /talks/        
     
   # - title: "CV"
   #   url: /cv-json/
