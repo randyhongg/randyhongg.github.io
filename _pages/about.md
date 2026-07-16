@@ -34,11 +34,8 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 </div>  
 
-![Description](images/holland.jpg){: .align-left width="250"}
+## Contact Me
 
-Your text goes here. Because the image is set to float left, this 
-paragraph will wrap around it and sit to its right, filling the 
-remaining space. Keep writing as much text as you want — it'll 
-continue wrapping alongside the image until the paragraph is 
-long enough to clear the image's height, at which point normal 
-full-width text resumes below.
+![Neuroscience](https://img.shields.io/badge/-Neuroscience-52adc8?style=flat-square)
+![Deep Learning](https://img.shields.io/badge/-Deep_Learning-52adc8?style=flat-square)
+![BCI](https://img.shields.io/badge/-Brain_Computer_Interfaces-52adc8?style=flat-square)
