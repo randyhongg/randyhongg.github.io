@@ -11,8 +11,8 @@ main:
   - title: "Projects"
     url: /portfolio/
   
-  - title: "Presentations"
-    url: /talks/        
+  - title: "Personal"
+    url: /personal/        
     
   # - title: "CV"
   #   url: /cv-json/
