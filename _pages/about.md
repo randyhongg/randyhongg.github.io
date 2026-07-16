@@ -33,7 +33,3 @@ Ph.D. student in the Neuroscience Graduate Group at the University of California
 I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.  
 
 </div>  
-
-</div>  
-
-
