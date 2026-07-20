@@ -20,6 +20,11 @@ Despite our efforts, we understand very little about how the brain communicates 
 
 </div>
 
+<div style="display: flex; gap: 12px; margin: 16px 0;">
+  <img src="images/graph.jpg" style="width: 49%; border-radius: 6px;">
+  <img src="images/graph.jpg" style="width: 49%; border-radius: 6px;">
+</div>
+
 ## Conference Presentations
 
 - **Hong, R.**, Graham, D., Hao, Y., (2026). “Predicting Edge Weight Asymmetries Using Colliding-Spreading Model Dynamics.” Poster and talk presented at NetSci 2026, Boston, MA.
