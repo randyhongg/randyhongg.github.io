@@ -19,7 +19,7 @@ I am a first-generation Vietnamese-American from Los Angeles, California. Witnes
 <br />
 <br />
 
-![Headshot](../images/headshot.jpg){: .align-center width="200"}
+![Headshot](../images/headshot.jpg){: .align-center width="65%"}
 
 
 
