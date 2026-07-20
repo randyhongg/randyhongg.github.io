@@ -16,8 +16,7 @@ Ph.D. student in the Neuroscience Graduate Group at the University of California
 I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I have aspirations of contributing to neuroengineering efforts to restore motor function of impaired demographics and interested in problems concerning human rights.  
 
 </div>  
-
-![Headshot](../images/headshot.jpg){: .align-center width="75%"}  
+![Headshot](../images/headshot.jpg){: .align-center width="100%"}  
 
 ## Scholar Profile  
 
@@ -31,7 +30,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 ## Featured Stories
 
-<div onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')" style="display: flex; align-items: center; gap: 20px; border: 1px solid #ddd; border-radius: 10px; padding: 18px; margin-top: 14px; max-width: 650px; cursor: pointer;">
+<div onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')" style="display: flex; align-items: center; gap: 20px; border: 1px solid #ddd; border-radius: 10px; padding: 18px; margin-top: 14px; max-width: 800px; cursor: pointer;">
   <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
   <div>
     <strong style="font-size: 17px;">Randy Hong '26 Built a Mind-Controlled Prosthetic Arm. Next Stop: UC Davis.</strong>
@@ -39,7 +38,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   </div>
 </div>
 
-<div onclick="window.open('https://www.possefoundation.org/news-and-events/hws-commencement-speaker-begins-next-chapter-in-neuroscience', '_blank')" style="display: flex; align-items: center; gap: 20px; border: 1px solid #ddd; border-radius: 10px; padding: 18px; margin-top: 14px; max-width: 650px; cursor: pointer;">
+<div onclick="window.open('https://www.possefoundation.org/news-and-events/hws-commencement-speaker-begins-next-chapter-in-neuroscience', '_blank')" style="display: flex; align-items: center; gap: 20px; border: 1px solid #ddd; border-radius: 10px; padding: 18px; margin-top: 14px; max-width: 800px; cursor: pointer;">
   <img src="images/commencement_speaker.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
   <div>
     <strong style="font-size: 17px;">HWS Commencement Speaker Begins Next Chapter in Neuroscience</strong>
