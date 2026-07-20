@@ -13,8 +13,8 @@ Artificial neural networks have provided us with an approach towards translating
 </div>  
 
 <div style="display: flex; gap: 12px; margin: 16px 0;">
-  <img src="../images/graph_visual.jpg" style="width: 49%; border-radius: 6px;">
-  <img src="../images/graph_visual.jpg" style="width: 49%; border-radius: 6px;">
+  <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
+  <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
 **Understanding network dynamics and routing strategies of neural computation**
@@ -26,8 +26,8 @@ Despite our efforts, we understand very little about how the brain communicates 
 </div>
 
 <div style="display: flex; gap: 12px; margin: 16px 0;">
-  <img src="../images/graph_visual.jpg" style="width: 49%; border-radius: 6px;">
-  <img src="../images/graph_visual.jpg" style="width: 49%; border-radius: 6px;">
+  <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
+  <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
 ## Conference Presentations
