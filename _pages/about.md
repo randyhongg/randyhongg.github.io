@@ -13,16 +13,13 @@ redirect_from:
 
 Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics.  
 
-I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled the deep passion I possess to uplift demographics suffering from loss. I have aspirations of contributing to neuroengineering efforts to restore motor function of impaired demographics and interested in problems concerning human rights and systemic violence.
+I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I have aspirations of contributing to neuroengineering efforts to restore motor function of impaired demographics and interested in problems concerning human rights and systemic violence.
 
 
 <br />
 <br />
 
 ![Headshot](../images/headshot.jpg){: .align-center width="65%"}
-
-
-
 
 </div>  
 
@@ -68,4 +65,6 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 ## Contact Me
 
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/randy-hong/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:randytranhong@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/randyhongg)
