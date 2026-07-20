@@ -15,13 +15,9 @@ Ph.D. student in the Neuroscience Graduate Group at the University of California
 
 I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I have aspirations of contributing to neuroengineering efforts to restore motor function of impaired demographics and interested in problems concerning human rights.  
 
-<br />
-
 </div>  
 
 ![Headshot](../images/headshot.jpg){: .align-center width="75%"}  
-
----
 
 ## Scholar Profile  
 
@@ -32,8 +28,6 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </div>
 
 [Read more about my research →](/research-interests/)
-
----
 
 ## Featured Stories
 
@@ -52,10 +46,6 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     <p style="margin: 6px 0 0; font-size: 15px; color: #666;">The Posse Foundation</p>
   </div>
 </div>
-
----
-
----
 
 ## Contact Me
 
