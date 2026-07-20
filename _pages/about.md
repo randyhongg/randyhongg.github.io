@@ -29,11 +29,21 @@ I am a first-generation Vietnamese-American from Los Angeles, California. Witnes
 
 </div>  
 
+---
+
 ## Scholar Profile  
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
   
 I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.  
+
+[Read more about my research →](/research-interests/)
+
+</div>
+
+---
+
+## Featured Stories  
 
 <a href="https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx" target="_blank" style="text-decoration: none; color: inherit;">
   <div style="display: flex; align-items: center; gap: 16px; border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin-top: 10px; max-width: 500px; transition: box-shadow 0.2s;">
@@ -47,8 +57,8 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 </div>  
 
+---
+
 ## Contact Me
 
-![Neuroscience](https://img.shields.io/badge/-Neuroscience-52adc8?style=flat-square)
-![Deep Learning](https://img.shields.io/badge/-Deep_Learning-52adc8?style=flat-square)
-![BCI](https://img.shields.io/badge/-Brain_Computer_Interfaces-52adc8?style=flat-square)
+
