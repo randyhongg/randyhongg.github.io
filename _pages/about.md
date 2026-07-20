@@ -15,7 +15,7 @@ Ph.D. student in the Neuroscience Graduate Group at the University of California
 
 <div style="display: flex; gap: 12px; margin: 16px 0;">
   <img src="../images/davis_logo.png" style="width: 30%; border-radius: 6px;">
-  <img src="../images/hws_logo.jpg" style="width: 60%; border-radius: 6px;">
+  <img src="../images/hws_logo.png" style="width: 60%; border-radius: 6px;">
 </div>
 </div> 
 
