@@ -1,12 +1,9 @@
 ---
-layout: single
+layout: home
 title: ""
 permalink: /research/
 author_profile: false
 ---
-
-# Research Interests
-
 **Engineering deep learning algorithms to build more efficient neural interfaces**
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
@@ -31,5 +28,3 @@ Despite our efforts, we understand very little about how the brain communicates 
 - Hong, R., Ashouri, M., Ellis, H., Pacheco, N., Suzuki, J., (2025). “Binary Classification of Movement Intention via ECoG Data and Logistic Regression Model.” Research presented at Neuromatch Academy Seminar, Zoom.
 - Hong, R., Hassini, L., Simms, J., Jensen, T. (2024). “Using Chloroform to Evaluate Initiation of High Order Brain Function in Brain Embryos at Early Mid-Incubation.” Poster presented at the Rochester Academy of Science Conference, Rochester, NY.
 - Anglin, S.M., Hong, R., Poirer, B. (2024). “Public Perceptions of Scientific Uncertainty.” Poster presented at the Eastern Psychological Association Convention, Philadelphia, PA.	
-
-...
