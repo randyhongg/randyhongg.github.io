@@ -13,6 +13,14 @@ redirect_from:
 
 Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics.  
 
+<div style="display: flex; gap: 12px; margin: 16px 0;">
+  <img src="../images/davis_logo.png" style="width: 49%; border-radius: 6px;">
+  <img src="../images/ngg_logo.png" style="width: 49%; border-radius: 6px;">
+</div>
+</div> 
+
+<div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
+  
 I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.  
 
 </div>  
