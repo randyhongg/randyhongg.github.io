@@ -16,7 +16,6 @@ Ph.D. student in the Neuroscience Graduate Group at the University of California
 I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.  
 
 </div>  
-![Headshot](../images/headshot.jpg){: .align-center width="100%"}  
 
 ## Scholar Profile  
 
