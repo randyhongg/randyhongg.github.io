@@ -13,7 +13,7 @@ Artificial neural networks have provided us with an approach towards translating
 </div>  
 
 <div style="display: flex; gap: 12px; margin: 16px 0;">
-  <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
+  <img src="../images/neural_network_visual.png" style="width: 49%; border-radius: 6px;">
   <img src="../images/data_plot_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
