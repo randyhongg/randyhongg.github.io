@@ -14,7 +14,7 @@ Artificial neural networks have provided us with an approach towards translating
 
 <div style="display: flex; gap: 12px; margin: 16px 0;">
   <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
-  <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
+  <img src="../images/data_plot_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
 **Understanding network dynamics and routing strategies of neural computation**
