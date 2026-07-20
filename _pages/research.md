@@ -1,10 +1,11 @@
 ---
 layout: single
-title: "Research"
+title: ""
 permalink: /research/
-author_profile: true
+author_profile: false
 ---
 
+# Research Interests
 
 **Engineering deep learning algorithms to build more efficient neural interfaces**
 
@@ -19,6 +20,8 @@ Artificial neural networks have provided us with an approach towards translating
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
 Despite our efforts, we understand very little about how the brain communicates information across its connectome from first principles due to limitations in our measurement tools. Whatever strategy is imposed is clearly very effective and efficient, being able to foster consciousness while consuming the same number of watts as a lightbulb, while only using neurons that are constraint to biophysical restrictions. This is in stark contrast to contemporary artifical intelligence models, which consume high quantities of energy and fail to recreate feats of the brain despite their nodes not being subject to biophysical restrictions. I am interested in studying network dynamics, connectome structure, and information passing strategies to develop biologically-inspired computational algorithms that are cost efficient and effective.  
+
+</div>
 
 ## Conference Presentations
 
