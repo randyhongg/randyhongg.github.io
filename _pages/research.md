@@ -26,7 +26,7 @@ Despite our efforts, we understand very little about how the brain communicates 
 </div>
 
 <div style="display: flex; gap: 12px; margin: 16px 0;">
-  <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
+  <img src="../images/sphere_visual.png" style="width: 49%; border-radius: 6px;">
   <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
