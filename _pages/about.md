@@ -37,10 +37,10 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 <a href="https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx" target="_blank" style="text-decoration: none; color: inherit;">
   <div style="display: flex; align-items: center; gap: 16px; border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin-top: 10px; max-width: 500px; transition: box-shadow 0.2s;">
-    <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 100px; height: 100px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
+    <img src="../images/arm_pose.jpg" alt="Article thumbnail" style="width: 100px; height: 100px; object-fit: cover; border-radius: 6px; flex-shrink: 0;">
     <div>
       <strong>Randy Hong '26 Built a Mind-Controlled Prosthetic Arm. Next Stop: UC Davis.</strong>
-      <p style="margin: 4px 0 0; font-size: 14px; color: #666;">Publication Name — brief one-line description of what it's about.</p>
+      <p style="margin: 4px 0 0; font-size: 14px; color: #666;">Hong'26 to UC Davis</p>
     </div>
   </div>
 </a>
