@@ -13,7 +13,7 @@ redirect_from:
 
 Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics.  
 
-I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I possess aspirations of contributing to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.  
+I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.  
 
 </div>  
 ![Headshot](../images/headshot.jpg){: .align-center width="100%"}  
@@ -23,18 +23,13 @@ I am a first-generation Vietnamese-American from Los Angeles, California. Witnes
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
   
 I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.  
+</div>
 
 Research interests of mine include...
 - Brain-computer interfaces
-- Deep learning and machine learning
-- Network dynamics  
-
-Broader general interests include...
-- Neuromorphic computing
-- Quantum mechanics
-- Applied mathematics
-
-</div>
+- Prostheses design
+- Deep learning & machine learning
+- Network dynamics
 
 [Read more about my research →](/research-interests/)
 
