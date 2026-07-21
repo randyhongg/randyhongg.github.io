@@ -46,7 +46,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 }
 </style>
 
-<img src="images/holland_teach.jpg" alt="Alt text" class="fade-in-image" style="width: 300px; border-radius: 8px;">
+<img src="../images/holland_teach.jpg" alt="Alt text" class="fade-in-image" style="width: 300px; border-radius: 8px;">
 
 <div style="display: flex; gap: 100px; justify-content: center; margin: 16px 0;">
   <a href="/research/">
