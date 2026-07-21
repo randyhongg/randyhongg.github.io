@@ -51,14 +51,21 @@ Despite our efforts, we understand very little about how the brain communicates 
   margin: 24px auto;
   border-radius: 10px;
   overflow: hidden;
+  height: 450px; /* adjust to match your photos' aspect ratio */
 }
 .gallery-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  display: none;
+  height: 100%;
+  object-fit: cover;
   border-radius: 10px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 .gallery-container img.active {
-  display: block;
+  opacity: 1;
 }
 .gallery-caption {
   text-align: center;
@@ -69,8 +76,8 @@ Despite our efforts, we understand very little about how the brain communicates 
 </style>
 
 <div class="gallery-container">
-  <img src="../images/netsci2026.jpg" class="active">
-  <img src="../images/rochsym2026.jpg">
+  <img src="../images/netsc2026.jpg" class="active">
+  <img src="../images/rochsymp2026.jpg">
   <img src="images/conference3.jpg">
   <img src="images/conference4.jpg">
 </div>
