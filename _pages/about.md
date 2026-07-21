@@ -11,7 +11,7 @@ redirect_from:
 .page__title {
   display: none;
 }
-
+</style>
 ## About Me  
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
