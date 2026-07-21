@@ -10,6 +10,7 @@ redirect_from:
 <style>
 .page__title {
   display: none;
+}
 
 ## About Me  
 
