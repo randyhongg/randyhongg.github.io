@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Featured Projects"
+title: ""
 permalink: /projects/
 author_profile: false
 ---
