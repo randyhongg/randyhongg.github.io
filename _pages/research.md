@@ -7,9 +7,8 @@ author_profile: false
 <style>
 .page__title {
   display: none;
-</style>
 }
-  
+</style>
 **Engineering deep learning algorithms to build more efficient neural interfaces**
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
