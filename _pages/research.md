@@ -42,4 +42,57 @@ Despite our efforts, we understand very little about how the brain communicates 
 - **Hong, R.**, Graham, D., Hao, Y., (2025). “Defining Parameters for the Prediction of Asymmetries in Brain Network Dynamics of Mammalian Brains.” Poster presented at Hobart and William Smith Colleges, Geneva, NY.
 - **Hong, R.**, Ashouri, M., Ellis, H., Pacheco, N., Suzuki, J., (2025). “Binary Classification of Movement Intention via ECoG Data and Logistic Regression Model.” Research presented at Neuromatch Academy Seminar, Zoom.
 - **Hong, R.**, Hassini, L., Simms, J., Jensen, T. (2024). “Using Chloroform to Evaluate Initiation of High Order Brain Function in Brain Embryos at Early Mid-Incubation.” Poster presented at the Rochester Academy of Science Conference, Rochester, NY.
-- Anglin, S.M., **Hong, R.**, Poirer, B. (2024). “Public Perceptions of Scientific Uncertainty.” Poster presented at the Eastern Psychological Association Convention, Philadelphia, PA.	
+- Anglin, S.M., **Hong, R.**, Poirer, B. (2024). “Public Perceptions of Scientific Uncertainty.” Poster presented at the Eastern Psychological Association Convention, Philadelphia, PA.
+
+<style>
+.gallery-container {
+  position: relative;
+  max-width: 700px;
+  margin: 24px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.gallery-container img {
+  width: 100%;
+  display: none;
+  border-radius: 10px;
+}
+.gallery-container img.active {
+  display: block;
+}
+.gallery-caption {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
+</style>
+
+<div class="gallery-container">
+  <img src="images/conference1.jpg" class="active">
+  <img src="images/conference2.jpg">
+  <img src="images/conference3.jpg">
+  <img src="images/conference4.jpg">
+</div>
+<p class="gallery-caption" id="gallery-caption">NetSci 2026, Boston, MA</p>
+
+<script>
+(function() {
+  const images = document.querySelectorAll('.gallery-container img');
+  const captions = [
+    "NetSci 2026, Boston, MA",
+    "Rochester Symposium for Physics Students 2026",
+    "Eastern Psychological Association Convention 2024",
+    "Rochester Academy of Science Conference 2024"
+  ];
+  const captionEl = document.getElementById('gallery-caption');
+  let current = 0;
+
+  setInterval(function() {
+    images[current].classList.remove('active');
+    current = (current + 1) % images.length;
+    images[current].classList.add('active');
+    captionEl.textContent = captions[current];
+  }, 3000);
+})();
+</script>
