@@ -1,9 +1,15 @@
 ---
 layout: single
-title: ""
+title: "Research"
 permalink: /research/
 author_profile: false
 ---
+
+<style>
+.page__title {
+  display: none;
+}
+  
 **Engineering deep learning algorithms to build more efficient neural interfaces**
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
