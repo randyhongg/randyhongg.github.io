@@ -46,17 +46,15 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 }
 </style>
 
-<div class="hero-fade-in" style="position: relative; width: 120%; max-width: 750px; margin: 0 auto;">
-  <img src="../images/holland_teach.jpg" alt="Alt text" style="width: 100%; box-sizing: border-box; border: none; padding: 0; display: block; border-radius: 8px;">
+<div style="width: 100%; max-width: 750px; margin: 0 auto;">
+  <img src="../images/holland_teach.jpg" alt="Alt text" class="hero-fade-in" style="width: 100%; border-radius: 8px; display: block;">
 
-  <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 100px; background: linear-gradient(transparent, rgba(0,0,0,0.5)); border-radius: 0 0 8px 8px;"></div>
-
-  <div style="position: absolute; bottom: 20px; left: 0; right: 0; display: flex; justify-content: center; gap: 50px;">
+  <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 16px;">
     <a href="/research/">
-      <img src="../images/learn_more.png" alt="Learn more about my research" style="width: 180px;">
+      <img src="../images/learn_more.png" alt="Learn more about my research" style="width: 100%; display: block;">
     </a>
     <a href="/projects/">
-      <img src="../images/view_projects.png" alt="View my projects" style="width: 180px;">
+      <img src="../images/view_projects.png" alt="View my projects" style="width: 100%; display: block;">
     </a>
   </div>
 </div>
