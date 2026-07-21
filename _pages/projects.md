@@ -5,6 +5,16 @@ permalink: /projects/
 author_profile: false
 ---
 
+<style>
+.projects-wide {
+  width: 90vw;
+  max-width: 900px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+</style>
+
 <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start;">
   <img src="../images/arm_pose.jpg" alt="Project 1" style="width: 180px; border-radius: 8px; flex-shrink: 0;">
   <div>
