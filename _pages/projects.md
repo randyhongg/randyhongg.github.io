@@ -6,6 +6,11 @@ author_profile: false
 ---
 
 <style>
+.page__title {
+  display: none;
+}
+
+<style>
 .projects-wide {
   width: 90vw;
   max-width: 900px;
