@@ -69,8 +69,8 @@ Despite our efforts, we understand very little about how the brain communicates 
 </style>
 
 <div class="gallery-container">
-  <img src="..images/netsci2026.jpg" class="active">
-  <img src="images/rochsym2026.jpg">
+  <img src="../images/netsci2026.jpg" class="active">
+  <img src="../images/rochsym2026.jpg">
   <img src="images/conference3.jpg">
   <img src="images/conference4.jpg">
 </div>
