@@ -46,7 +46,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 }
 </style>
 
-<div class="hero-fade-in" style="position: relative; width: 120%; max-width: 700px; margin: 0 auto;">
+<div class="hero-fade-in" style="position: relative; width: 120%; max-width: 900px; margin: 0 auto;">
   <img src="../images/holland_teach.jpg" alt="Alt text" style="width: 100%; box-sizing: border-box; border: none; padding: 0; display: block; border-radius: 8px;">
 
   <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 100px; background: linear-gradient(transparent, rgba(0,0,0,0.5)); border-radius: 0 0 8px 8px;"></div>
