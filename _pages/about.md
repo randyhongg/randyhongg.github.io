@@ -36,7 +36,9 @@ I am a first-generation Vietnamese-American from Los Angeles, California. Witnes
 I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.  
 </div>
 
-<div style="display: flex; gap: 300px; justify-content: center; margin: 16px 0;">
+![Holland Prize](../images/holland.jpg)
+
+<div style="display: flex; gap: 100px; justify-content: center; margin: 16px 0;">
   <a href="/research/">
     <img src="../images/learn_more.png" alt="Learn more about my research" style="width: 250px;">
   </a>
