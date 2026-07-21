@@ -5,6 +5,7 @@ permalink: /projects/
 author_profile: false
 ---
 ## Selected Projects
+{: style="text-align: center;"}
 
 <style>
 .page__title {
