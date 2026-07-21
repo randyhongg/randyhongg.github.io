@@ -69,8 +69,8 @@ Despite our efforts, we understand very little about how the brain communicates 
 </style>
 
 <div class="gallery-container">
-  <img src="images/conference1.jpg" class="active">
-  <img src="images/conference2.jpg">
+  <img src="..images/netsci2026.jpg" class="active">
+  <img src="images/rochsym2026.jpg">
   <img src="images/conference3.jpg">
   <img src="images/conference4.jpg">
 </div>
@@ -80,7 +80,7 @@ Despite our efforts, we understand very little about how the brain communicates 
 (function() {
   const images = document.querySelectorAll('.gallery-container img');
   const captions = [
-    "NetSci 2026, Boston, MA",
+    "NetSci 2026",
     "Rochester Symposium for Physics Students 2026",
     "Eastern Psychological Association Convention 2024",
     "Rochester Academy of Science Conference 2024"
