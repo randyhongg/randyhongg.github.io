@@ -16,7 +16,7 @@ author_profile: false
 </div>
 
 <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start;">
-  <img src="../images/graph_visual.jpg" alt="Project 2" style="width: 180px; border-radius: 8px; flex-shrink: 0;">
+  <img src="../images/Scheme (1).jpg" alt="Project 2" style="width: 180px; border-radius: 8px; flex-shrink: 0;">
   <div>
     <h3 style="margin: 0 0 8px;">Message Flux Imbalance Under Copy-Spread-Annihilate Dynamics Predict Edge Weight Asymmetries on Mammalian Connectomes</h3>
     <p style="margin: 0 0 4px; font-size: 13px; color: #888;">Randy Hong, Yan Hao Ph.D., Daniel Graham Ph.D.</p>
@@ -26,7 +26,7 @@ author_profile: false
 </div>
 
 <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start;">
-  <img src="images/project-2-thumb.jpg" alt="Project 2" style="width: 180px; border-radius: 8px; flex-shrink: 0;">
+  <img src="../images/log_regress.jpg" alt="Project 2" style="width: 180px; border-radius: 8px; flex-shrink: 0;">
   <div>
     <h3 style="margin: 0 0 8px;">Movement Intention Classification Using Electrocorticography Beta Frequency Bands and Logistic Regression Model</h3>
     <p style="margin: 0 0 4px; font-size: 13px; color: #888;">Randy Hong, Mahmood Ashoory, Julia Suzuki, Hannah Ellis, Niels Pacheco-Barrios M.D.</p>
