@@ -4,10 +4,10 @@ title: "Research"
 permalink: /research/
 author_profile: false
 ---
-
 <style>
 .page__title {
   display: none;
+</style>
 }
   
 **Engineering deep learning algorithms to build more efficient neural interfaces**
