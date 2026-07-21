@@ -9,8 +9,7 @@ author_profile: false
 .page__title {
   display: none;
 }
-
-<style>
+<\style>
 .projects-wide {
   width: 90vw;
   max-width: 900px;
