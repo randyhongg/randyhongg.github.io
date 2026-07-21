@@ -51,10 +51,10 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
   <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 12px; margin-top: 16px;">
     <a href="/research/">
-      <img src="../images/learn_more.png" alt="Learn more about my research" style="width: 50%; display: block;">
+      <img src="../images/learn_more.png" alt="Learn more about my research" style="width: 100%; display: block;">
     </a>
     <a href="/projects/">
-      <img src="../images/view_projects.png" alt="View my projects" style="width: 50%; display: block;">
+      <img src="../images/view_projects.png" alt="View my projects" style="width: 100%; display: block;">
     </a>
   </div>
 </div>
