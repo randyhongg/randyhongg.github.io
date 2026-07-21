@@ -17,18 +17,11 @@ redirect_from:
 
 Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics.  
 
-<div style="display: flex; margin: 16px 0;">
-  <div style="width: 50%; display: flex; justify-content: center;">
-    <a href="/research/">
-      <img src="../images/learn_more.png" alt="Learn more about my research" style="width: 200px;">
-    </a>
-  </div>
-  <div style="width: 50%; display: flex; justify-content: center;">
-    <a href="/projects/">
-      <img src="../images/view_projects.png" alt="View my projects" style="width: 200px;">
-    </a>
-  </div>
+<div style="display: flex; gap: 12px; margin: 16px 0;">
+  <img src="../images/davis_logo.png" style="width: 33%; border-radius: 6px;">
+  <img src="../images/hws_logo.png" style="width: 66%; border-radius: 6px;">
 </div>
+</div> 
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
   
