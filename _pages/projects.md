@@ -9,7 +9,6 @@ author_profile: false
 .page__title {
   display: none;
 }
-<\style>
 .projects-wide {
   width: 90vw;
   max-width: 900px;
@@ -18,8 +17,6 @@ author_profile: false
   transform: translateX(-50%);
 }
 </style>
-
-<div class="projects-wide">
 
 <div style="display: flex; gap: 20px; margin-bottom: 40px; align-items: flex-start;">
   <img src="../images/arm_pose.jpg" alt="Project 1" style="width: 240px; border-radius: 8px; flex-shrink: 0;">
