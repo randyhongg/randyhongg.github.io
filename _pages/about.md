@@ -36,16 +36,6 @@ I am a first-generation Vietnamese-American from Los Angeles, California. Witnes
 I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.  
 </div>
 
-<style>
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-.hero-fade-in {
-  animation: fadeIn 1.5s ease-in;
-}
-</style>
-
 ## Featured Stories
 
 <div onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')" style="display: flex; align-items: center; gap: 20px; border: 1px solid #ddd; border-radius: 10px; padding: 18px; margin-top: 14px; max-width: 800px; cursor: pointer;">
