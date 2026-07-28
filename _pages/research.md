@@ -45,35 +45,32 @@ Despite our efforts, we understand very little about how the brain communicates 
 - Anglin, S.M., **Hong, R.**, Poirer, B. (2024). “Public Perceptions of Scientific Uncertainty.” Poster presented at the Eastern Psychological Association Convention, Philadelphia, PA.
 
 <style>
-.gallery-container {
-  position: relative;
+.photo-collage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 120px;
+  gap: 10px;
   max-width: 700px;
   margin: 24px auto;
-  border-radius: 10px;
-  overflow: hidden;
-  height: 450px; /* adjust to match your photos' aspect ratio */
 }
-.gallery-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
+.photo-collage img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+  border-radius: 8px;
 }
-.gallery-container img.active {
-  opacity: 1;
-}
-.gallery-caption {
-  text-align: center;
-  font-size: 14px;
-  color: #666;
-  margin-top: 8px;
-}
+.photo-collage .tall { grid-row: span 2; }
+.photo-collage .wide { grid-column: span 2; }
 </style>
+
+<div class="photo-collage">
+  <img src="images/netsc2026.jpg" class="tall" alt="NetSci 2026">
+  <img src="images/rochsymp2026.jpg" class="wide" alt="Rochester Symposium 2026">
+  <img src="images/conference3.jpg" alt="Conference photo">
+  <img src="images/conference4.jpg" class="tall" alt="Conference photo">
+  <img src="images/conference5.jpg" class="wide" alt="Conference photo">
+  <img src="images/conference6.jpg" alt="Conference photo">
+</div>
 
 <div class="gallery-container">
   <img src="../images/netsc2026.jpg" class="active">
@@ -81,21 +78,3 @@ Despite our efforts, we understand very little about how the brain communicates 
 </div>
 <p class="gallery-caption" id="gallery-caption">NetSci 2026, Boston, MA</p>
 
-<script>
-(function() {
-  const images = document.querySelectorAll('.gallery-container img');
-  const captions = [
-    "NetSci 2026",
-    "Rochester Symposium for Physics Students 2026"
-  ];
-  const captionEl = document.getElementById('gallery-caption');
-  let current = 0;
-
-  setInterval(function() {
-    images[current].classList.remove('active');
-    current = (current + 1) % images.length;
-    images[current].classList.add('active');
-    captionEl.textContent = captions[current];
-  }, 3000);
-})();
-</script>
