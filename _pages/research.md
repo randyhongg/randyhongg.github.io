@@ -64,8 +64,8 @@ Despite our efforts, we understand very little about how the brain communicates 
 </style>
 
 <div class="photo-collage">
-  <img src="../images/netsc2026.jpg" class="tall" alt="NetSci 2026">
-  <img src="../images/rochsymp2026.jpg" class="wide" alt="Rochester Symposium 2026">
+  <img src="../images/netsci2026.jpg" class="tall" alt="NetSci 2026">
+  <img src="../images/rochsym2026.jpg" class="wide" alt="Rochester Symposium 2026">
   <img src="images/conference3.jpg" alt="Conference photo">
   <img src="images/conference4.jpg" class="tall" alt="Conference photo">
   <img src="images/conference5.jpg" class="wide" alt="Conference photo">
