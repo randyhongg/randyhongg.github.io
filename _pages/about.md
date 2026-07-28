@@ -46,19 +46,6 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 }
 </style>
 
-<div style="width: 100%; max-width: 750px; margin: 0 auto;">
-  <img src="../images/holland_teach.jpg" alt="Alt text" class="hero-fade-in" style="width: 100%; border-radius: 8px; display: block;">
-
-  <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 12px; margin-top: 16px;">
-    <a href="/research/">
-      <img src="../images/learn_more.png" alt="Learn more" style="width: 100%; display: block;">
-    </a>
-    <a href="/projects/">
-      <img src="../images/view_projects.png" alt="View my projects" style="width: 100%; display: block;">
-    </a>
-  </div>
-</div>
-
 ## Featured Stories
 
 <div onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')" style="display: flex; align-items: center; gap: 20px; border: 1px solid #ddd; border-radius: 10px; padding: 18px; margin-top: 14px; max-width: 800px; cursor: pointer;">
