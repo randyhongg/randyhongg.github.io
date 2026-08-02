@@ -37,7 +37,7 @@ author_profile: false
   <div style="max-width: 600px;">
     <h3 style="margin: 0 0 8px;">Message Flux Imbalance Under Copy-Spread-Annihilate Dynamics Predict Edge Weight Asymmetries on Mammalian Connectomes</h3>
     <p style="margin: 0 0 4px; font-size: 13px; color: #888;">Randy Hong, Yan Hao Ph.D., Daniel Graham Ph.D.</p>
-    <p style="margin: 0 0 8px; text-align: justify; text-align-last: justify;">Using a Markovian-agent message-passing model, we simulated polysynaptic messaging on both a mouse and marmoset brain connectomes to see if message flux imbalance can accurately predict bidirectional edge weight asymmetries on mammalian brain networks.</p>
+    <p style="margin: 0 0 8px; text-align: justify; text-align-last: justify;">Using a Markovian-agent message-passing model, we simulated polysynaptic messaging on both a mouse and marmoset brain connectome to demonstrate that message flux imbalance can accurately predict bidirectional edge weight asymmetries on mammalian brain networks.</p>
     <a href="https://github.com/randyhongg/project-repo-2" target="_blank" style="font-size: 14px;">View project →</a>
   </div>
 </div>
