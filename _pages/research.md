@@ -55,7 +55,7 @@ Despite our efforts, we understand very little about how the brain communicates 
 }
 .conference-photos-wide .photo-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 .conference-photos-wide figure {
