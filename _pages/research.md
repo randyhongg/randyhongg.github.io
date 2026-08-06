@@ -45,26 +45,45 @@ Despite our efforts, we understand very little about how the brain communicates 
 - Anglin, S.M., **Hong, R.**, Poirer, B. (2024). “Public Perceptions of Scientific Uncertainty.” Poster presented at the Eastern Psychological Association Convention, Philadelphia, PA.
 
 <style>
-.photo-collage {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 120px;
-  gap: 10px;
+.conference-photos {
+  display: flex;
+  gap: 20px;
   max-width: 700px;
   margin: 24px auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.photo-collage img {
+.conference-photos figure {
+  margin: 0;
+  flex: 1 1 300px;
+  max-width: 340px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+.conference-photos img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  border-radius: 8px;
+  display: block;
 }
-.photo-collage .tall { grid-row: span 2; }
-.photo-collage .wide { grid-column: span 2; }
+.conference-photos figcaption {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
 </style>
 
-<div class="photo-collage">
-  <img src="../images/netsci2026.jpg" class="wide" alt="NetSci 2026">
-  <img src="../images/rochsym2026.jpg" class="wide" alt="Rochester Symposium 2026">
+<div class="conference-photos">
+  <figure>
+    <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+    <figcaption>NetSci 2026, Boston, MA</figcaption>
+  </figure>
+  <figure>
+    <img src="../images/rochsym2026.jpg" alt="Rochester Symposium 2026">
+    <figcaption>Rochester Symposium for Physics Students 2026, Rochester, NY</figcaption>
+  </figure>
 </div>
-
