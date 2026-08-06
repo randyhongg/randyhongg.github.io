@@ -37,13 +37,6 @@ Despite our efforts, we understand very little about how the brain communicates 
 
 ## Conference Presentations
 
-- **Hong, R.**, Graham, D., Hao, Y., (2026). “Predicting Edge Weight Asymmetries Using Colliding-Spreading Model Dynamics.” Poster and talk presented at NetSci 2026, Boston, MA.
-- **Hong, R.**, Dumitriu, I., (2026). “sEMG-Based Motor Control of Neural Prosthetics.” Poster presented at Rochester Symposium for Physics Students 2026, Rochester, NY.
-- **Hong, R.**, Graham, D., Hao, Y., (2025). “Defining Parameters for the Prediction of Asymmetries in Brain Network Dynamics of Mammalian Brains.” Poster presented at Hobart and William Smith Colleges, Geneva, NY.
-- **Hong, R.**, Ashouri, M., Ellis, H., Pacheco, N., Suzuki, J., (2025). “Binary Classification of Movement Intention via ECoG Data and Logistic Regression Model.” Research presented at Neuromatch Academy Seminar, Zoom.
-- **Hong, R.**, Hassini, L., Simms, J., Jensen, T. (2024). “Using Chloroform to Evaluate Initiation of High Order Brain Function in Brain Embryos at Early Mid-Incubation.” Poster presented at the Rochester Academy of Science Conference, Rochester, NY.
-- Anglin, S.M., **Hong, R.**, Poirer, B. (2024). “Public Perceptions of Scientific Uncertainty.” Poster presented at the Eastern Psychological Association Convention, Philadelphia, PA.
-
 <style>
 .conference-photos-wide {
   width: 90vw;
