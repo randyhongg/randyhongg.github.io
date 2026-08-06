@@ -45,45 +45,63 @@ Despite our efforts, we understand very little about how the brain communicates 
 - Anglin, S.M., **Hong, R.**, Poirer, B. (2024). “Public Perceptions of Scientific Uncertainty.” Poster presented at the Eastern Psychological Association Convention, Philadelphia, PA.
 
 <style>
-.conference-photos {
-  display: flex;
-  gap: 20px;
-  max-width: 700px;
-  margin: 24px auto;
-  flex-wrap: wrap;
-  justify-content: center;
+.conference-photos-wide {
+  width: 90vw;
+  max-width: 1100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 32px 0;
 }
-.conference-photos figure {
+.conference-photos-wide .photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.conference-photos-wide figure {
   margin: 0;
-  flex: 1 1 300px;
-  max-width: 340px;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   background-color: #fff;
 }
-.conference-photos img {
+.conference-photos-wide img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
 }
-.conference-photos figcaption {
+.conference-photos-wide figcaption {
   padding: 10px 14px;
   font-size: 13px;
   color: #666;
   text-align: center;
 }
+@media (max-width: 700px) {
+  .conference-photos-wide .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 </style>
 
-<div class="conference-photos">
-  <figure>
-    <img src="../images/netsci2026.jpg" alt="NetSci 2026">
-    <figcaption>NetSci 2026, Boston, MA</figcaption>
-  </figure>
-  <figure>
-    <img src="../images/rochsym2026.jpg" alt="Rochester Symposium 2026">
-    <figcaption>Rochester Symposium for Physics Students 2026, Rochester, NY</figcaption>
-  </figure>
+<div class="conference-photos-wide">
+  <div class="photo-grid">
+    <figure>
+      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <figcaption>NetSci 2026, Boston, MA</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/rochsym2026.jpg" alt="Rochester Symposium 2026">
+      <figcaption>Rochester Symposium for Physics Students 2026, Rochester, NY</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/rochsym2026.jpg" alt="RAS 2024">
+      <figcaption>Rochester Academy of Science 2024, Rochester, NY</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/rochsym2026.jpg" alt="Eastern Psychological Association 2024">
+      <figcaption>Eastern Psychological Association 2024, Philadelphia, PA</figcaption>
+    </figure>
+  </div>
 </div>
