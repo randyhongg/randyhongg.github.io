@@ -36,6 +36,7 @@ Despite our efforts, we understand very little about how the brain communicates 
 </div>
 
 ## Conference Presentations
+{: style="text-align: center;"}
 
 <style>
 .conference-photos-wide {
