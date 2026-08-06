@@ -38,7 +38,27 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 ## Featured Stories
 
-<div onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')" style="display: flex; align-items: center; gap: 20px; border: 1px solid #ddd; border-radius: 10px; padding: 18px; margin-top: 14px; max-width: 800px; cursor: pointer;">
+<style>
+.story-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 18px;
+  margin-top: 14px;
+  max-width: 800px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.story-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+</style>
+
+<div class="story-card" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
   <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
   <div>
     <strong style="font-size: 17px;">Randy Hong '26 Built a Mind-Controlled Prosthetic Arm. Next Stop: UC Davis.</strong>
@@ -46,7 +66,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   </div>
 </div>
 
-<div onclick="window.open('https://www.possefoundation.org/news-and-events/hws-commencement-speaker-begins-next-chapter-in-neuroscience', '_blank')" style="display: flex; align-items: center; gap: 20px; border: 1px solid #ddd; border-radius: 10px; padding: 18px; margin-top: 14px; max-width: 800px; cursor: pointer;">
+<div class="story-card" onclick="window.open('https://www.possefoundation.org/news-and-events/hws-commencement-speaker-begins-next-chapter-in-neuroscience', '_blank')">
   <img src="images/commencement_speaker.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
   <div>
     <strong style="font-size: 17px;">HWS Commencement Speaker Begins Next Chapter in Neuroscience</strong>
