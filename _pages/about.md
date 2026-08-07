@@ -75,7 +75,20 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </div>
 
 ## Contact Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/randy-hong/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:randytranhong@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/randyhongg)
+<div class="contact-links">
+  <a class="contact-card" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
+    <p class="contact-label">Network</p>
+    <p class="contact-title">LinkedIn <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Connect with me for research updates and professional inquiries.</p>
+  </a>
+  <a class="contact-card" href="https://github.com/randyhongg" target="_blank">
+    <p class="contact-label">Repository</p>
+    <p class="contact-title">GitHub <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Browse the code behind my projects and research.</p>
+  </a>
+  <a class="contact-card" href="mailto:randytranhong@gmail.com">
+    <p class="contact-label">Direct</p>
+    <p class="contact-title">Email <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Reach out directly — happy to chat about research or collaboration.</p>
+  </a>
+</div>
