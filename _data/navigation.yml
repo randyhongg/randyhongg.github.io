@@ -11,11 +11,8 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Honors"
-    url: /honors/ 
+  - title: "Resume"
+    url: /resume/ 
   
   - title: "Personal"
     url: /personal/        
