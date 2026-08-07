@@ -94,7 +94,7 @@ Despite our efforts, we understand very little about how the brain communicates 
       <figcaption>Rochester Academy of Science 2024, Rochester, NY</figcaption>
     </figure>
     <figure>
-      <img src="../images/rochsym2026.jpg" alt="Eastern Psychological Association 2024">
+      <img src="../images/epa.jpg" alt="Eastern Psychological Association 2024">
       <figcaption>Eastern Psychological Association 2024, Philadelphia, PA</figcaption>
     </figure>
   </div>
