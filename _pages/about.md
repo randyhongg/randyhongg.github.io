@@ -75,7 +75,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 }
 </style>
 
-<div class="story-card" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
+<div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
   <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
   <div>
     <strong style="font-size: 17px;">Randy Hong '26 Built a Mind-Controlled Prosthetic Arm. Next Stop: UC Davis.</strong>
@@ -93,7 +93,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 ## Contact Me
 <div class="contact-links">
-  <a class="contact-card" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
+  <a class="contact-card reveal" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
     <p class="contact-label">Network</p>
     <p class="contact-title">LinkedIn <span class="contact-arrow">→</span></p>
     <p class="contact-desc">Connect with me for research updates and professional inquiries.</p>
