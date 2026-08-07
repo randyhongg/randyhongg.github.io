@@ -98,12 +98,12 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     <p class="contact-title">LinkedIn <span class="contact-arrow">→</span></p>
     <p class="contact-desc">Connect with me for research updates and professional inquiries.</p>
   </a>
-  <a class="contact-card" href="https://github.com/randyhongg" target="_blank">
+  <a class="contact-card reveal" href="https://github.com/randyhongg" target="_blank">
     <p class="contact-label">Repository</p>
     <p class="contact-title">GitHub <span class="contact-arrow">→</span></p>
     <p class="contact-desc">Browse the code behind my projects and research.</p>
   </a>
-  <a class="contact-card" href="mailto:randytranhong@gmail.com">
+  <a class="contact-card reveal" href="mailto:randytranhong@gmail.com">
     <p class="contact-label">Direct</p>
     <p class="contact-title">Email <span class="contact-arrow">→</span></p>
     <p class="contact-desc">Reach out directly — happy to chat about research or collaboration.</p>
