@@ -27,6 +27,55 @@ redirect_from:
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
+.contact-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+.contact-card {
+  flex: 1 1 220px;
+  max-width: 260px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 18px;
+  text-decoration: none !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  display: block;
+}
+.contact-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  border-color: #999;
+}
+.contact-card .contact-label {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #999;
+  margin: 0 0 6px;
+}
+.contact-card .contact-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-card .contact-arrow {
+  transition: transform 0.2s ease;
+}
+.contact-card:hover .contact-arrow {
+  transform: translateX(4px);
+}
+.contact-card .contact-desc {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+}
 </style>
 ## About Me  
 
