@@ -90,7 +90,7 @@ Despite our efforts, we understand very little about how the brain communicates 
       <figcaption>Rochester Symposium for Physics Students 2026, Rochester, NY</figcaption>
     </figure>
     <figure>
-      <img src="../images/rochsym2026.jpg" alt="RAS 2024">
+      <img src="../images/ras_lina.jpg" alt="RAS 2024">
       <figcaption>Rochester Academy of Science 2024, Rochester, NY</figcaption>
     </figure>
     <figure>
