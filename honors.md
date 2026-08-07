@@ -207,22 +207,15 @@ author_profile: false
 
 <div class="resume-card">
 <div class="rc-heading">
-<div><span class="rc-title">Ph.D., Neuroscience (Neuroengineering)</span><br><span class="rc-org">University of California, Davis</span></div>
+<div><span class="rc-title">Ph.D., Neuroscience </span><br><span class="rc-org">University of California, Davis</span></div>
 <span class="rc-dates">Expected Dec 2031</span>
 </div>
 </div>
 
 <div class="resume-card">
 <div class="rc-heading">
-<div><span class="rc-title">B.S. Computational Neuroscience &middot; B.A. Public Health Studies</span><br><span class="rc-org">Hobart and William Smith Colleges &mdash; Minor in Physics &middot; GPA 4.07/4.00</span></div>
-<span class="rc-dates">Expected May 2026</span>
-</div>
-</div>
-
-<div class="resume-card">
-<div class="rc-heading">
-<div><span class="rc-title">Biotechnology Concentration</span><br><span class="rc-org">Yonsei University, Seoul, South Korea</span></div>
-<span class="rc-dates">Spring 2025</span>
+<div><span class="rc-title">B.S. Computational Neuroscience </span><br><span class="rc-org">Hobart and William Smith Colleges </span></div>
+<span class="rc-dates">May 2026</span>
 </div>
 </div>
 
@@ -230,7 +223,7 @@ author_profile: false
 
 <details class="resume-card">
 <summary>
-<div><span class="rc-title">Independent Project Researcher</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
+<div><span class="rc-title">Undergraduate Student Researcher</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
 <span class="rc-dates">Jan 2026 &ndash; May 2026 <span class="rc-chevron">&#8964;</span></span>
 </summary>
 <div class="rc-body">
@@ -257,52 +250,11 @@ author_profile: false
 </div>
 </details>
 
-<details class="resume-card">
-<summary>
-<div><span class="rc-title">Summer Research Student</span> <span class="rc-org">&mdash; Neuromatch Academy</span></div>
-<span class="rc-dates">Jul 2025 <span class="rc-chevron">&#8964;</span></span>
-</summary>
-<div class="rc-body">
-<ul>
-<li>Admitted to a rigorous computational neuroscience summer program equipping students with modeling, data analysis, and coding experience in Python (Matplotlib, NumPy, scikit-learn)</li>
-<li>Developed a descriptive logistic regression model predicting the onset of naturalistic upper-limb motor function activation in epilepsy patients, using ECoG and movement data from the AJILE12 dataset to achieve ~70% accuracy</li>
-<li>Manipulated and visualized ~800GB of ECoG data&mdash;performing PCA, extracting beta frequency bands via bandpass filters, and constructing movement information vectors</li>
-</ul>
-</div>
-</details>
-
-<details class="resume-card">
-<summary>
-<div><span class="rc-title">Research Assistant</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
-<span class="rc-dates">Sep 2024 &ndash; Dec 2024 <span class="rc-chevron">&#8964;</span></span>
-</summary>
-<div class="rc-body">
-<ul>
-<li>Advised by Professor Thomas Jensen and Lab Manager Justine Simms (Biology)&mdash;used controlled anesthesia injections into chicken embryo eggs to evaluate cerebral brain function in early-mid incubation (stage 33 HH) via embryonic movement</li>
-<li>Experimentally assessed cerebral brain function onset by varying anesthesia dose timing across developmental periods, measuring movement via candling and heart rate using an Eggbuddy device</li>
-</ul>
-</div>
-</details>
-
-<details class="resume-card">
-<summary>
-<div><span class="rc-title">Research Assistant</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
-<span class="rc-dates">Aug 2023 &ndash; Aug 2024 <span class="rc-chevron">&#8964;</span></span>
-</summary>
-<div class="rc-body">
-<ul>
-<li>Advised by Professor Stephanie Anglin (Psychological Science)&mdash;correlational study on public epistemological perception of science's truth-assessment capabilities vs. understanding of scientific principles</li>
-<li>Developed coding criteria to categorize qualitative responses into quantitative data; manually categorized hundreds of responses; performed statistical analysis in SPSS</li>
-<li>Facilitated lab efforts via pilot testing, literature review, and writing portions of abstracts and conference proposals</li>
-</ul>
-</div>
-</details>
-
 <div class="resume-section-title">Teaching Experience</div>
 
 <details class="resume-card">
 <summary>
-<div><span class="rc-title">Teaching Assistant, PSY230 Biopsychology</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
+<div><span class="rc-title">Teaching Assistant</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
 <span class="rc-dates">Aug 2024 &ndash; May 2026 <span class="rc-chevron">&#8964;</span></span>
 </summary>
 <div class="rc-body">
@@ -310,36 +262,6 @@ author_profile: false
 <li>TA for Professor Elizabeth Belcher&mdash;dedicated three hours weekly to lecturing, facilitating exam review sessions, and writing exam-styled homework questions</li>
 <li>Lectured on neuroanatomy, neurophysiology, neurodevelopment, and sensorimotor function, prioritizing student engagement and pacing</li>
 <li>Served as liaison between students and professor to address confusion and refine teaching clarity</li>
-</ul>
-</div>
-</details>
-
-<div class="resume-section-title">Professional Experience</div>
-
-<details class="resume-card">
-<summary>
-<div><span class="rc-title">Career Assistant Intern</span> <span class="rc-org">&mdash; Salisbury Center for Career Services</span></div>
-<span class="rc-dates">Jan 2024 &ndash; Dec 2024 <span class="rc-chevron">&#8964;</span></span>
-</summary>
-<div class="rc-body">
-<ul>
-<li>Assisted students one-on-one with career development, internship applications, resumes, cover letters, and LinkedIn profiles</li>
-<li>Managed privacy of sensitive student information while developing resumes efficiently</li>
-<li>Attended meetings with Associate Director to review and streamline the resume development process</li>
-</ul>
-</div>
-</details>
-
-<details class="resume-card">
-<summary>
-<div><span class="rc-title">Medical Intern</span> <span class="rc-org">&mdash; Chapters Family Treatment Center</span></div>
-<span class="rc-dates">Jun 2023 &ndash; Dec 2023 <span class="rc-chevron">&#8964;</span></span>
-</summary>
-<div class="rc-body">
-<ul>
-<li>Assisted the Medical Director in diagnosis screening&mdash;researching and administering neuropsychological exams (KBIT-2, aimswebPlus, General Cognitive Assessment, MINI, PID-5, Conners 4th Edition)</li>
-<li>Developed a medical report template with exam descriptions, result charts, and interpretive summaries</li>
-<li>Facilitated non-clinical groups with teen/adolescent patients, documenting behavior and mental status exams via BestNotes</li>
 </ul>
 </div>
 </details>
@@ -374,10 +296,6 @@ author_profile: false
 <li><span>Elected to Tri-Alpha Honor Society</span><span class="honor-date">March 2024</span></li>
 <li><span>Elected to Psi Chi Honor Society</span><span class="honor-date">February 2024</span></li>
 <li><span>Dept. of Psychological Science Dr. Stephen L. Cohen '67 Grant</span><span class="honor-date">February 2024</span></li>
-<li><span>Salisbury Center Guaranteed Internship Funding</span><span class="honor-date">January 2024</span></li>
-<li><span>First Year Academic Achievement Award</span><span class="honor-date">April 2023</span></li>
-<li><span>Charles '01 &amp; Charles '32 Allison Endowed Scholarship Fund</span><span class="honor-date">September 2022</span></li>
-<li><span>Mara '66 and Frank O'Laughlin Endowed Scholarship Fund</span><span class="honor-date">September 2022</span></li>
 <li><span>International Baccalaureate Diploma</span><span class="honor-date">May 2022</span></li>
 <li><span>Posse Foundation Full-Tuition Leadership Scholarship</span><span class="honor-date">January 2021</span></li>
 </ul>
