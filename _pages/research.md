@@ -41,7 +41,7 @@ Despite our efforts, we understand very little about how the brain communicates 
 <style>
 .conference-photos-wide {
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1500px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -74,7 +74,7 @@ Despite our efforts, we understand very little about how the brain communicates 
 }
 @media (max-width: 700px) {
   .conference-photos-wide .photo-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 </style>
