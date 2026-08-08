@@ -298,25 +298,6 @@ author_profile: false
 </div>
 </details>
 
-<div class="resume-section-title">Teaching Experience</div>
-
-<details class="resume-card">
-<summary>
-<div class="rc-heading-left">
-<img class="rc-logo" src="../images/hws_logo.png" alt="HWS logo">
-<div><span class="rc-title">Teaching Assistant</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
-</div>
-<span class="rc-dates">Aug 2024 &ndash; May 2026 <span class="rc-chevron">&#8964;</span></span>
-</summary>
-<div class="rc-body">
-<ul>
-<li>TA for Professor Elizabeth Belcher&mdash;dedicated three hours weekly to lecturing, facilitating exam review sessions, and writing exam-styled homework questions</li>
-<li>Lectured on neuroanatomy, neurophysiology, neurodevelopment, and sensorimotor function, prioritizing student engagement and pacing</li>
-<li>Served as liaison between students and professor to address confusion and refine teaching clarity</li>
-</ul>
-</div>
-</details>
-
 <div class="resume-section-title">Academic Service</div>
 
 <details class="resume-card">
@@ -340,16 +321,16 @@ author_profile: false
 
 <div class="resume-card honors-list">
 <details class="honor-item">
-<summary><span>Elected to Phi Beta Kappa</span><span class="honor-date">March 2026 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this honor here &mdash; e.g. what Phi Beta Kappa recognizes and how members are selected.</div>
+<summary><span>Phi Beta Kappa</span><span class="honor-date">March 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Phi Beta Kappa is the oldest and most prestigious academic honor society in the United States, recognizing students who have demonstrated intellectual curiosity and achieved distinction in the liberal arts and sciences. Highly selective, merit and character based.</div>
 </details>
 <details class="honor-item">
-<summary><span>Elected to Tri-Alpha Honor Society</span><span class="honor-date">March 2024 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this honor here.</div>
+<summary><span>Tri-Alpha Honor Society</span><span class="honor-date">March 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Tri Alpha recognizes first generation college students who meet the rigorous criteria established for membership.</div>
 </details>
 <details class="honor-item">
-<summary><span>Elected to Psi Chi Honor Society</span><span class="honor-date">February 2024 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this honor here.</div>
+<summary><span>Psi Chi Honor Society</span><span class="honor-date">February 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Psi Chi is the international honor society in psychology, recognizing students who meet the rigorous criteria established for membership.</div>
 </details>
 </div>
 
@@ -358,11 +339,11 @@ author_profile: false
 <div class="resume-card honors-list">
 <details class="honor-item">
 <summary><span>25th Annual Physics Holland Prize Winner</span><span class="honor-date">April 2026 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this award here.</div>
+<div class="honor-body">Awarded to the student who conducts the best lecture on a physics derivation of their choice. Winner is awarded monetary compensation. I demonstrated how fixing the mathematical inconsistencies of Ampere's law led to the Maxwell equations and conclusion that light is a propagating electromagnetic wave.</div>
 </details>
 <details class="honor-item">
 <summary><span>Professor Jeffrey M. Greenspon Memorial Award</span><span class="honor-date">April 2026 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this award here.</div>
+<div class="honor-body">Awarded to one graduating senior who has shown high achievement and a strong interest in neuroscience.</div>
 </details>
 <details class="honor-item">
 <summary><span>International Baccalaureate Diploma</span><span class="honor-date">May 2022 <span class="honor-chevron">&#8964;</span></span></summary>
@@ -395,7 +376,7 @@ author_profile: false
 </details>
 <details class="honor-item">
 <summary><span>Posse Foundation Full-Tuition Leadership Scholarship</span><span class="honor-date">January 2021 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this scholarship here.</div>
+<div class="honor-body">Awarded by the Posse Foundation, a nonprofit organization that partners with select colleges and universities in the United States to provide scholarships through a cohort-based model. Students receive four-year, full-tuition scholarships. Highly selective, merit and leadership based.</div>
 </details>
 </div>
 
