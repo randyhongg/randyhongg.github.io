@@ -9,6 +9,9 @@ author_profile: false
   display: none;
 }
 </style>
+## Research Interests
+{: style="text-align: center;"}
+
 **Engineering deep learning algorithms to build more efficient neural interfaces**
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
