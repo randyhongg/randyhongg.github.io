@@ -158,29 +158,48 @@ author_profile: false
 .honors-list {
   padding: 6px 24px;
 }
-.honors-list ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.honor-item {
+  border-bottom: 1px solid #f2f2f2;
 }
-.honors-list li {
+.honor-item:last-child {
+  border-bottom: none;
+}
+.honor-item summary {
+  cursor: pointer;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: 16px;
   padding: 13px 0;
-  border-bottom: 1px solid #f2f2f2;
   font-size: 14.5px;
   color: #333;
 }
-.honors-list li:last-child {
-  border-bottom: none;
+.honor-item summary::-webkit-details-marker {
+  display: none;
 }
-.honors-list .honor-date {
+.honor-item .honor-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 12.5px;
   color: #999;
   white-space: nowrap;
   font-style: normal;
+}
+.honor-item .honor-chevron {
+  font-size: 11px;
+  color: #bbb;
+  transition: transform 0.2s ease;
+}
+.honor-item[open] .honor-chevron {
+  transform: rotate(180deg);
+}
+.honor-item .honor-body {
+  padding: 0 0 16px;
+  font-size: 13.5px;
+  color: #666;
+  line-height: 1.55;
 }
 .skills-tags {
   display: flex;
@@ -317,30 +336,67 @@ author_profile: false
 </div>
 </details>
 
-<div class="resume-section-title">Honors &amp; Awards</div>
+<div class="resume-section-title">Honor Societies</div>
 
 <div class="resume-card honors-list">
-<ul>
-<li><span>25th Annual Physics Holland Prize Winner</span><span class="honor-date">April 2026</span></li>
-<li><span>Professor Jeffrey M. Greenspon Memorial Award</span><span class="honor-date">April 2026</span></li>
-<li><span>Elected to Phi Beta Kappa</span><span class="honor-date">March 2026</span></li>
-<li><span>Elected to Tri-Alpha Honor Society</span><span class="honor-date">March 2024</span></li>
-<li><span>Elected to Psi Chi Honor Society</span><span class="honor-date">February 2024</span></li>
-<li><span>International Baccalaureate Diploma</span><span class="honor-date">May 2022</span></li>
-</ul>
+<details class="honor-item">
+<summary><span>Elected to Phi Beta Kappa</span><span class="honor-date">March 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this honor here &mdash; e.g. what Phi Beta Kappa recognizes and how members are selected.</div>
+</details>
+<details class="honor-item">
+<summary><span>Elected to Tri-Alpha Honor Society</span><span class="honor-date">March 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this honor here.</div>
+</details>
+<details class="honor-item">
+<summary><span>Elected to Psi Chi Honor Society</span><span class="honor-date">February 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this honor here.</div>
+</details>
+</div>
+
+<div class="resume-section-title">Awards &amp; Honors</div>
+
+<div class="resume-card honors-list">
+<details class="honor-item">
+<summary><span>25th Annual Physics Holland Prize Winner</span><span class="honor-date">April 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this award here.</div>
+</details>
+<details class="honor-item">
+<summary><span>Professor Jeffrey M. Greenspon Memorial Award</span><span class="honor-date">April 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this award here.</div>
+</details>
+<details class="honor-item">
+<summary><span>International Baccalaureate Diploma</span><span class="honor-date">May 2022 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this credential here.</div>
+</details>
 </div>
 
 <div class="resume-section-title">Grants &amp; Funding</div>
 
 <div class="resume-card honors-list">
-<ul>
-<li><span>NIH T32 Training Program in Basic Neuroscience Fellowship</span><span class="honor-date">May 2026</span></li>
-<li><span>Department of Physics Research Funding Grant</span><span class="honor-date">January 2026</span></li>
-<li><span>Summer Mentored Research Grant</span><span class="honor-date">June 2025</span></li>
-<li><span>McGuire Study Abroad Fund</span><span class="honor-date">December 2024</span></li>
-<li><span>Dept. of Psychological Science Dr. Stephen L. Cohen '67 Grant</span><span class="honor-date">February 2024</span></li>
-<li><span>Posse Foundation Full-Tuition Leadership Scholarship</span><span class="honor-date">January 2021</span></li>
-</ul>
+<details class="honor-item">
+<summary><span>NIH T32 Training Program in Basic Neuroscience Fellowship</span><span class="honor-date">May 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this fellowship here.</div>
+</details>
+<details class="honor-item">
+<summary><span>Department of Physics Research Funding Grant</span><span class="honor-date">January 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this grant here.</div>
+</details>
+<details class="honor-item">
+<summary><span>Summer Mentored Research Grant</span><span class="honor-date">June 2025 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this grant here.</div>
+</details>
+<details class="honor-item">
+<summary><span>McGuire Study Abroad Fund</span><span class="honor-date">December 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this fund here.</div>
+</details>
+<details class="honor-item">
+<summary><span>Dept. of Psychological Science Dr. Stephen L. Cohen '67 Grant</span><span class="honor-date">February 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this grant here.</div>
+</details>
+<details class="honor-item">
+<summary><span>Posse Foundation Full-Tuition Leadership Scholarship</span><span class="honor-date">January 2021 <span class="honor-chevron">&#8964;</span></span></summary>
+<div class="honor-body">Add details about this scholarship here.</div>
+</details>
 </div>
 
 <div class="resume-section-title">Skills &amp; Tools</div>
