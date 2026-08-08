@@ -84,6 +84,22 @@ author_profile: false
   align-items: center;
   gap: 16px;
 }
+.rc-heading-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+.rc-logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  object-fit: contain;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  padding: 4px;
+  flex-shrink: 0;
+}
 .rc-title {
   font-size: 15.5px;
   font-weight: 600;
@@ -107,6 +123,7 @@ author_profile: false
   background-color: #f6f6f7;
   padding: 5px 11px;
   border-radius: 20px;
+  flex-shrink: 0;
 }
 .rc-chevron {
   display: inline-block;
@@ -207,14 +224,20 @@ author_profile: false
 
 <div class="resume-card">
 <div class="rc-heading">
-<div><span class="rc-title">Ph.D., Neuroscience </span><br><span class="rc-org">University of California, Davis</span></div>
+<div class="rc-heading-left">
+<img class="rc-logo" src="../images/davis_logo.png" alt="UC Davis logo">
+<div><span class="rc-title">Ph.D., Neuroscience</span><br><span class="rc-org">University of California, Davis</span></div>
+</div>
 <span class="rc-dates">Expected Dec 2031</span>
 </div>
 </div>
 
 <div class="resume-card">
 <div class="rc-heading">
-<div><span class="rc-title">B.S. Computational Neuroscience </span><br><span class="rc-org">Hobart and William Smith Colleges </span></div>
+<div class="rc-heading-left">
+<img class="rc-logo" src="../images/hws_logo.png" alt="HWS logo">
+<div><span class="rc-title">B.S., Computational Neuroscience</span><br><span class="rc-org">Hobart and William Smith Colleges</span></div>
+</div>
 <span class="rc-dates">May 2026</span>
 </div>
 </div>
@@ -223,7 +246,10 @@ author_profile: false
 
 <details class="resume-card">
 <summary>
+<div class="rc-heading-left">
+<img class="rc-logo" src="../images/hws_logo.png" alt="HWS logo">
 <div><span class="rc-title">Undergraduate Student Researcher</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
+</div>
 <span class="rc-dates">Jan 2026 &ndash; May 2026 <span class="rc-chevron">&#8964;</span></span>
 </summary>
 <div class="rc-body">
@@ -237,7 +263,10 @@ author_profile: false
 
 <details class="resume-card">
 <summary>
+<div class="rc-heading-left">
+<img class="rc-logo" src="../images/hws_logo.png" alt="HWS logo">
 <div><span class="rc-title">Honors Thesis Candidate</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
+</div>
 <span class="rc-dates">Jun 2025 &ndash; May 2026 <span class="rc-chevron">&#8964;</span></span>
 </summary>
 <div class="rc-body">
@@ -254,7 +283,10 @@ author_profile: false
 
 <details class="resume-card">
 <summary>
+<div class="rc-heading-left">
+<img class="rc-logo" src="../images/hws_logo.png" alt="HWS logo">
 <div><span class="rc-title">Teaching Assistant</span> <span class="rc-org">&mdash; Hobart and William Smith Colleges</span></div>
+</div>
 <span class="rc-dates">Aug 2024 &ndash; May 2026 <span class="rc-chevron">&#8964;</span></span>
 </summary>
 <div class="rc-body">
@@ -270,7 +302,10 @@ author_profile: false
 
 <details class="resume-card">
 <summary>
+<div class="rc-heading-left">
+<img class="rc-logo" src="../images/hws_logo.png" alt="HWS logo">
 <div><span class="rc-title">President</span> <span class="rc-org">&mdash; Asian Student Union</span></div>
+</div>
 <span class="rc-dates">Apr 2023 &ndash; Dec 2024 <span class="rc-chevron">&#8964;</span></span>
 </summary>
 <div class="rc-body">
@@ -282,21 +317,28 @@ author_profile: false
 </div>
 </details>
 
-<div class="resume-section-title">Honors &amp; Grants</div>
+<div class="resume-section-title">Honors &amp; Awards</div>
+
+<div class="resume-card honors-list">
+<ul>
+<li><span>25th Annual Physics Holland Prize Winner</span><span class="honor-date">April 2026</span></li>
+<li><span>Professor Jeffrey M. Greenspon Memorial Award</span><span class="honor-date">April 2026</span></li>
+<li><span>Elected to Phi Beta Kappa</span><span class="honor-date">March 2026</span></li>
+<li><span>Elected to Tri-Alpha Honor Society</span><span class="honor-date">March 2024</span></li>
+<li><span>Elected to Psi Chi Honor Society</span><span class="honor-date">February 2024</span></li>
+<li><span>International Baccalaureate Diploma</span><span class="honor-date">May 2022</span></li>
+</ul>
+</div>
+
+<div class="resume-section-title">Grants &amp; Funding</div>
 
 <div class="resume-card honors-list">
 <ul>
 <li><span>NIH T32 Training Program in Basic Neuroscience Fellowship</span><span class="honor-date">May 2026</span></li>
-<li><span>25th Annual Physics Holland Prize Winner</span><span class="honor-date">April 2026</span></li>
-<li><span>Professor Jeffrey M. Greenspon Memorial Award</span><span class="honor-date">April 2026</span></li>
-<li><span>Elected to Phi Beta Kappa</span><span class="honor-date">March 2026</span></li>
 <li><span>Department of Physics Research Funding Grant</span><span class="honor-date">January 2026</span></li>
 <li><span>Summer Mentored Research Grant</span><span class="honor-date">June 2025</span></li>
 <li><span>McGuire Study Abroad Fund</span><span class="honor-date">December 2024</span></li>
-<li><span>Elected to Tri-Alpha Honor Society</span><span class="honor-date">March 2024</span></li>
-<li><span>Elected to Psi Chi Honor Society</span><span class="honor-date">February 2024</span></li>
 <li><span>Dept. of Psychological Science Dr. Stephen L. Cohen '67 Grant</span><span class="honor-date">February 2024</span></li>
-<li><span>International Baccalaureate Diploma</span><span class="honor-date">May 2022</span></li>
 <li><span>Posse Foundation Full-Tuition Leadership Scholarship</span><span class="honor-date">January 2021</span></li>
 </ul>
 </div>
