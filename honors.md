@@ -269,10 +269,6 @@ author_profile: false
 
 <div class="resume-wide">
 
-<div class="resume-download">
-<a href="/files/randy-hong-cv.pdf" target="_blank">Download CV (PDF) &#8599;</a>
-</div>
-
 <div class="resume-section-title">Education</div>
 
 <div class="resume-card">
