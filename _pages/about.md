@@ -27,6 +27,49 @@ redirect_from:
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
+.profile-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 22px;
+  margin-top: 14px;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.profile-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.profile-name {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+.profile-title {
+  font-size: 14px;
+  color: #666;
+  margin: 2px 0 0;
+}
+.profile-thumbs {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+.profile-thumbs img {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
 .contact-links {
   display: flex;
   gap: 16px;
@@ -77,52 +120,35 @@ redirect_from:
   margin: 0;
 }
 </style>
-## About Me  
+## About Me
 
-<div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
+<div class="profile-card reveal" markdown="1">
 
-Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics.  
-
-<div style="display: flex; gap: 12px; margin: 16px 0;">
-  <img src="../images/davis_logo.png" style="width: 33%; border-radius: 6px;">
-  <img src="../images/hws_logo.png" style="width: 66%; border-radius: 6px;">
+<div class="profile-header">
+  <img class="profile-photo" src="../images/profile.png" alt="Randy Hong">
+  <div>
+    <p class="profile-name">Randy Hong</p>
+    <p class="profile-title">Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</p>
+  </div>
 </div>
-</div> 
 
-<div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
-  
-I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.  
+<div style="text-align: justify; text-align-last: justify;" markdown="1">
 
-</div>  
+Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics. I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.
 
-## Scholar Profile  
+I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.
 
-<div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
-  
-I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.  
+</div>
+
+<div class="profile-thumbs">
+  <img src="../images/headshot.jpg" alt="Research photo 1">
+  <img src="../images/holland.jpg" alt="Research photo 2">
+  <img src="../images/prosthetic_pose.jpg" alt="Research photo 3">
+</div>
+
 </div>
 
 ## Featured Stories
-
-<style>
-.story-card {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 18px;
-  margin-top: 14px;
-  max-width: 800px;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-.story-card:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-}
-</style>
 
 <div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
   <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
