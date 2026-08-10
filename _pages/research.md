@@ -116,7 +116,7 @@ Despite our efforts, we understand very little about how the brain communicates 
 <style>
 .conference-photos-wide {
   width: 90vw;
-  max-width: 1000px;
+  max-width: 850px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
