@@ -27,26 +27,24 @@ redirect_from:
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
-.profile-intro {
-  overflow: hidden;
+.profile-banner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
   margin-bottom: 4px;
 }
-.profile-photo-wrap {
-  float: left;
-  width: 220px;
-  margin: 0 24px 12px 0;
-}
 .profile-photo {
-  width: 100%;
+  width: 150px;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border-radius: 12px;
   display: block;
+  flex-shrink: 0;
 }
 .profile-name {
   font-size: 20px;
   font-weight: 600;
-  margin: 4px 0 12px;
+  margin: 0 0 10px;
 }
 .profile-facts {
   margin: 0;
@@ -54,12 +52,15 @@ redirect_from:
   list-style: none;
 }
 .profile-facts li {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 1.5;
   color: #444;
-  margin: 0 0 10px;
-  padding-left: 14px;
+  margin: 0 0 6px;
+  padding-left: 12px;
   border-left: 2px solid #ddd;
+}
+.profile-facts li:last-child {
+  margin-bottom: 0;
 }
 .contact-links {
   display: flex;
@@ -110,22 +111,20 @@ redirect_from:
   color: #666;
   margin: 0;
 }
-@media (max-width: 560px) {
-  .profile-photo-wrap {
-    float: none;
-    width: 100%;
-    max-width: 260px;
-    margin: 0 auto 16px;
+@media (max-width: 480px) {
+  .profile-banner {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 </style>
 ## About Me
 
-<div class="profile-intro" markdown="1">
+<div class="profile-banner" markdown="1">
 
-<div class="profile-photo-wrap">
-  <img class="profile-photo" src="../images/website_pfp.jpg" alt="Randy Hong">
-</div>
+<img class="profile-photo" src="../images/website_pfp.jpg" alt="Randy Hong">
+
+<div markdown="1">
 
 <p class="profile-name">Randy Hong</p>
 
@@ -134,6 +133,8 @@ redirect_from:
 <li>B.S. Computational Neuroscience, Minor in Physics &mdash; Hobart and William Smith Colleges</li>
 <li>Phi Beta Kappa &amp; Summa Cum Laude, Joint Honors</li>
 </ul>
+
+</div>
 
 </div>
 
@@ -173,4 +174,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     <p class="contact-title">GitHub <span class="contact-arrow">→</span></p>
     <p class="contact-desc">Browse the source code behind my projects and research.</p>
   </a>
-  <a
+  <a class="contact-card reveal" href="mailto:randytranhong@gmail.com">
+    <p class="contact-label">Direct</p>
+    <p class="contact-title">Email <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Reach out
