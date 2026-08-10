@@ -194,6 +194,24 @@ author_profile: false
   padding: 3px;
   flex-shrink: 0;
 }
+.honor-logo-frame {
+  width: 34px;
+  height: 34px;
+  border-radius: 7px;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.honor-logo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.8);
+}
 .honor-item .honor-date {
   display: inline-flex;
   align-items: center;
@@ -341,7 +359,7 @@ author_profile: false
 <div class="honor-body">Phi Beta Kappa is the oldest and most prestigious academic honor society in the United States, recognizing students who have demonstrated intellectual curiosity and achieved distinction in the liberal arts and sciences. Highly selective, merit and character based.</div>
 </details>
 <details class="honor-item">
-<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/tri_alpha_logo.png" alt="Tri-Alpha logo"><span>Tri-Alpha Honor Society</span></span><span class="honor-date">March 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><span class="honor-logo-frame"><img src="../images/tri_alpha_logo.png" alt="Tri-Alpha logo"></span><span>Tri-Alpha Honor Society</span></span><span class="honor-date">March 2024 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Tri Alpha recognizes first generation college students who meet the rigorous criteria established for membership.</div>
 </details>
 <details class="honor-item">
@@ -371,7 +389,7 @@ author_profile: false
 
 <div class="resume-card honors-list">
 <details class="honor-item">
-<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/nih_logo.png" alt="NIH logo"><span>NIH T32 Training Program in Basic Neuroscience Fellowship</span></span><span class="honor-date">May 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><span class="honor-logo-frame"><img src="../images/nih_logo.png" alt="NIH logo"></span><span>NIH T32 Training Program in Basic Neuroscience Fellowship</span></span><span class="honor-date">May 2026 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Selectively issued to incoming graduate students to support their neuroscience training. Provides trainees with one year of tuition, stipend, and travel funding to scientific conferences. Appointment is competitive and in recognition of outstanding undergraduate academic records and research experience.</div>
 </details>
 <details class="honor-item">
