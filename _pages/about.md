@@ -27,10 +27,14 @@ redirect_from:
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
+.profile-intro {
+  overflow: hidden;
+  margin-bottom: 4px;
+}
 .profile-photo-wrap {
-  width: 100%;
-  max-width: 320px;
-  margin: 0 auto 18px;
+  float: left;
+  width: 220px;
+  margin: 0 24px 12px 0;
 }
 .profile-photo {
   width: 100%;
@@ -40,16 +44,20 @@ redirect_from:
   display: block;
 }
 .profile-name {
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 600;
-  margin: 0;
-  text-align: center;
+  margin: 4px 0 2px;
 }
 .profile-title {
   font-size: 14px;
   color: #666;
-  margin: 4px 0 0;
-  text-align: center;
+  margin: 0 0 14px;
+}
+.profile-lead {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
 }
 .contact-links {
   display: flex;
@@ -100,10 +108,18 @@ redirect_from:
   color: #666;
   margin: 0;
 }
+@media (max-width: 560px) {
+  .profile-photo-wrap {
+    float: none;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto 16px;
+  }
+}
 </style>
 ## About Me
 
-<div class="reveal" markdown="1">
+<div class="profile-intro" markdown="1">
 
 <div class="profile-photo-wrap">
   <img class="profile-photo" src="../images/website_pfp.jpg" alt="Randy Hong">
@@ -111,16 +127,15 @@ redirect_from:
 
 <p class="profile-name">Randy Hong</p>
 <p class="profile-title">Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</p>
+<p class="profile-lead">First-generation Vietnamese-American from Los Angeles, working at the intersection of neuroscience and engineering to build technology for people who've lost function.</p>
 
 </div>
 
 <div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem; margin-top: 1.5rem;" markdown="1">
 
-Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics.  
+Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics. I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.
 
-I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.  
-
-I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.  
+I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.
 
 </div>
 
