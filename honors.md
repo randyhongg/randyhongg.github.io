@@ -185,13 +185,13 @@ author_profile: false
   min-width: 0;
 }
 .honor-logo {
-  width: 22px;
-  height: 22px;
-  border-radius: 5px;
+  width: 34px;
+  height: 34px;
+  border-radius: 7px;
   object-fit: contain;
   background-color: #fafafa;
   border: 1px solid #eee;
-  padding: 2px;
+  padding: 3px;
   flex-shrink: 0;
 }
 .honor-item .honor-date {
@@ -362,7 +362,7 @@ author_profile: false
 <div class="honor-body">Awarded to one graduating senior who has shown high achievement and a strong interest in neuroscience.</div>
 </details>
 <details class="honor-item">
-<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/ib_logo.png" alt="International Baccalaureate logo"><span>International Baccalaureate Diploma</span></span><span class="honor-date">May 2022 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/ib_logo.jpg" alt="International Baccalaureate logo"><span>International Baccalaureate Diploma</span></span><span class="honor-date">May 2022 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Demonstrates completion of the International Baccalaureate Diploma Program. Internationally recognized for its rigor and preparation of students for higher-level education. Obtainment of the diploma indicates the completion of IB examinations, an independent research paper, and an original community service project.</div>
 </details>
 </div>
@@ -391,7 +391,7 @@ author_profile: false
 <div class="honor-body">Issued to sponsor travel funds for the Eastern Psychological Association Conference in Philadelphia, Pennsylvania.</div>
 </details>
 <details class="honor-item">
-<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/posse_logo.png" alt="Posse Foundation logo"><span>Posse Foundation Full-Tuition Leadership Scholarship</span></span><span class="honor-date">January 2021 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/posse_logo.jpeg" alt="Posse Foundation logo"><span>Posse Foundation Full-Tuition Leadership Scholarship</span></span><span class="honor-date">January 2021 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Awarded by the Posse Foundation, a nonprofit organization that partners with select colleges and universities in the United States to provide scholarships through a cohort-based model. Students receive four-year, full-tuition scholarships. Highly selective, merit and leadership based.</div>
 </details>
 </div>
