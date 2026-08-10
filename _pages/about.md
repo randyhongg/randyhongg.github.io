@@ -27,66 +27,29 @@ redirect_from:
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
-.carousel {
-  overflow: hidden;
-  border-radius: 10px;
-  margin-top: 6px;
-}
-.carousel-track {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-.carousel-track img {
+.profile-photo-wrap {
   width: 100%;
-  flex-shrink: 0;
-  height: 260px;
+  max-width: 320px;
+  margin: 0 auto 18px;
+}
+.profile-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
-}
-.carousel-dots {
-  display: flex;
-  gap: 6px;
-  justify-content: center;
-  margin-top: 10px;
-}
-.carousel-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #ccc;
-  cursor: pointer;
-}
-.carousel-dot.active {
-  background: #222;
-}
-.profile-strip {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-top: 18px;
-  margin-bottom: 6px;
-}
-.profile-avatar {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
+  border-radius: 12px;
+  display: block;
 }
 .profile-name {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 600;
   margin: 0;
+  text-align: center;
 }
 .profile-title {
-  font-size: 13px;
+  font-size: 14px;
   color: #666;
-  margin: 2px 0 0;
-}
-.profile-tagline {
-  font-size: 15px;
-  color: #333;
-  margin: 14px 0 0;
-  line-height: 1.6;
+  margin: 4px 0 0;
+  text-align: center;
 }
 .contact-links {
   display: flex;
@@ -142,74 +105,24 @@ redirect_from:
 
 <div class="reveal" markdown="1">
 
-<div class="carousel" id="photoCarousel">
-  <div class="carousel-track" id="carouselTrack">
-    <img src="../images/headshot.jpg" alt="Randy Hong headshot">
-    <img src="../images/holland.jpg" alt="Randy Hong receiving the Physics Holland Prize">
-    <img src="../images/prosthetic_pose.jpg" alt="Randy Hong with his mind-controlled prosthetic arm">
-  </div>
-  <div class="carousel-dots" id="carouselDots"></div>
+<div class="profile-photo-wrap">
+  <img class="profile-photo" src="../images/website_pfp.jpg" alt="Randy Hong">
 </div>
 
-<div class="profile-strip">
-  <img class="profile-avatar" src="../images/website_pfp.jpg" alt="Randy Hong">
-  <div>
-    <p class="profile-name">Randy Hong</p>
-    <p class="profile-title">Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</p>
-  </div>
-</div>
-
-<p class="profile-tagline">Decoding neural signals to build technology that restores what's been lost.</p>
+<p class="profile-name">Randy Hong</p>
+<p class="profile-title">Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</p>
 
 </div>
 
 <div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem; margin-top: 1.5rem;" markdown="1">
 
-Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics. I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.
+Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics.  
 
-I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.
+I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.  
+
+I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.  
 
 </div>
-
-<script>
-(function() {
-  const track = document.getElementById('carouselTrack');
-  const dotsContainer = document.getElementById('carouselDots');
-  const images = track.querySelectorAll('img');
-  let index = 0;
-  let timer;
-
-  images.forEach((_, i) => {
-    const dot = document.createElement('div');
-    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
-    dot.addEventListener('click', () => goTo(i));
-    dotsContainer.appendChild(dot);
-  });
-  const dots = dotsContainer.querySelectorAll('.carousel-dot');
-
-  function goTo(i) {
-    index = i;
-    track.style.transform = 'translateX(-' + (index * 100) + '%)';
-    dots.forEach((d, di) => d.classList.toggle('active', di === index));
-  }
-
-  function next() {
-    goTo((index + 1) % images.length);
-  }
-
-  function start() {
-    timer = setInterval(next, 4000);
-  }
-  function stop() {
-    clearInterval(timer);
-  }
-
-  start();
-  const carousel = document.getElementById('photoCarousel');
-  carousel.addEventListener('mouseenter', stop);
-  carousel.addEventListener('mouseleave', start);
-})();
-</script>
 
 ## Featured Stories
 
