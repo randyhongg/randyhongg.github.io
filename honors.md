@@ -156,10 +156,22 @@ author_profile: false
   margin-bottom: 0;
 }
 .honors-list {
-  padding: 6px 24px;
+  padding: 6px 0;
+}
+.resume-card.honors-list:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transform: none;
+  border-color: #e8e8e8;
 }
 .honor-item {
   border-bottom: 1px solid #f2f2f2;
+  padding: 0 24px;
+  margin: 0 -24px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+.honor-item:hover {
+  background-color: #fafafa;
 }
 .honor-item:last-child {
   border-bottom: none;
@@ -210,7 +222,7 @@ author_profile: false
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(1.25);
+  transform: scale(1.8);
 }
 .honor-item .honor-date {
   display: inline-flex;
@@ -268,6 +280,10 @@ author_profile: false
 </style>
 
 <div class="resume-wide">
+
+<div class="resume-download">
+<a href="/files/randy-hong-cv.pdf" target="_blank">Download CV (PDF) &#8599;</a>
+</div>
 
 <div class="resume-section-title">Education</div>
 
@@ -376,7 +392,7 @@ author_profile: false
 <div class="honor-body">Awarded to one graduating senior who has shown high achievement and a strong interest in neuroscience.</div>
 </details>
 <details class="honor-item">
-<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/ib_logo.jpg" alt="International Baccalaureate logo"><span>International Baccalaureate Diploma</span></span><span class="honor-date">May 2022 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/ib_logo.png" alt="International Baccalaureate logo"><span>International Baccalaureate Diploma</span></span><span class="honor-date">May 2022 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Demonstrates completion of the International Baccalaureate Diploma Program. Internationally recognized for its rigor and preparation of students for higher-level education. Obtainment of the diploma indicates the completion of IB examinations, an independent research paper, and an original community service project.</div>
 </details>
 </div>
@@ -405,7 +421,7 @@ author_profile: false
 <div class="honor-body">Issued to sponsor travel funds for the Eastern Psychological Association Conference in Philadelphia, Pennsylvania.</div>
 </details>
 <details class="honor-item">
-<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/posse_logo.jpeg" alt="Posse Foundation logo"><span>Posse Foundation Full-Tuition Leadership Scholarship</span></span><span class="honor-date">January 2021 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/posse_logo.png" alt="Posse Foundation logo"><span>Posse Foundation Full-Tuition Leadership Scholarship</span></span><span class="honor-date">January 2021 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Awarded by the Posse Foundation, a nonprofit organization that partners with select colleges and universities in the United States to provide scholarships through a cohort-based model. Students receive four-year, full-tuition scholarships. Highly selective, merit and leadership based.</div>
 </details>
 </div>
