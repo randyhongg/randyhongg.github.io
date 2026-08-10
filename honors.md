@@ -210,7 +210,7 @@ author_profile: false
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(1.8);
+  transform: scale(1.5);
 }
 .honor-item .honor-date {
   display: inline-flex;
