@@ -169,7 +169,7 @@ author_profile: false
   list-style: none;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 16px;
   padding: 13px 0;
   font-size: 14.5px;
@@ -177,6 +177,22 @@ author_profile: false
 }
 .honor-item summary::-webkit-details-marker {
   display: none;
+}
+.honor-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.honor-logo {
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+  object-fit: contain;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  padding: 2px;
+  flex-shrink: 0;
 }
 .honor-item .honor-date {
   display: inline-flex;
@@ -321,15 +337,15 @@ author_profile: false
 
 <div class="resume-card honors-list">
 <details class="honor-item">
-<summary><span>Phi Beta Kappa</span><span class="honor-date">March 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/phi_beta_kappa_logo.png" alt="Phi Beta Kappa logo"><span>Phi Beta Kappa</span></span><span class="honor-date">March 2026 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Phi Beta Kappa is the oldest and most prestigious academic honor society in the United States, recognizing students who have demonstrated intellectual curiosity and achieved distinction in the liberal arts and sciences. Highly selective, merit and character based.</div>
 </details>
 <details class="honor-item">
-<summary><span>Tri-Alpha Honor Society</span><span class="honor-date">March 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/tri_alpha_logo.png" alt="Tri-Alpha logo"><span>Tri-Alpha Honor Society</span></span><span class="honor-date">March 2024 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Tri Alpha recognizes first generation college students who meet the rigorous criteria established for membership.</div>
 </details>
 <details class="honor-item">
-<summary><span>Psi Chi Honor Society</span><span class="honor-date">February 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/psi_chi_logo.png" alt="Psi Chi logo"><span>Psi Chi Honor Society</span></span><span class="honor-date">February 2024 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Psi Chi is the international honor society in psychology, recognizing students who meet the rigorous criteria established for membership.</div>
 </details>
 </div>
@@ -338,15 +354,15 @@ author_profile: false
 
 <div class="resume-card honors-list">
 <details class="honor-item">
-<summary><span>25th Annual Physics Holland Prize Winner</span><span class="honor-date">April 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/hws_logo.png" alt="HWS logo"><span>25th Annual Physics Holland Prize Winner</span></span><span class="honor-date">April 2026 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Awarded to the student who conducts the best lecture on a physics derivation of their choice. Winner is awarded monetary compensation. I demonstrated how fixing the mathematical inconsistencies of Ampere's law led to the Maxwell equations and conclusion that light is a propagating electromagnetic wave.</div>
 </details>
 <details class="honor-item">
-<summary><span>Professor Jeffrey M. Greenspon Memorial Award</span><span class="honor-date">April 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/hws_logo.png" alt="HWS logo"><span>Professor Jeffrey M. Greenspon Memorial Award</span></span><span class="honor-date">April 2026 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Awarded to one graduating senior who has shown high achievement and a strong interest in neuroscience.</div>
 </details>
 <details class="honor-item">
-<summary><span>International Baccalaureate Diploma</span><span class="honor-date">May 2022 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/ib_logo.png" alt="International Baccalaureate logo"><span>International Baccalaureate Diploma</span></span><span class="honor-date">May 2022 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Demonstrates completion of the International Baccalaureate Diploma Program. Internationally recognized for its rigor and preparation of students for higher-level education. Obtainment of the diploma indicates the completion of IB examinations, an independent research paper, and an original community service project.</div>
 </details>
 </div>
@@ -355,27 +371,27 @@ author_profile: false
 
 <div class="resume-card honors-list">
 <details class="honor-item">
-<summary><span>NIH T32 Training Program in Basic Neuroscience Fellowship</span><span class="honor-date">May 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/nih_logo.png" alt="NIH logo"><span>NIH T32 Training Program in Basic Neuroscience Fellowship</span></span><span class="honor-date">May 2026 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Selectively issued to incoming graduate students to support their neuroscience training. Provides trainees with one year of tuition, stipend, and travel funding to scientific conferences. Appointment is competitive and in recognition of outstanding undergraduate academic records and research experience.</div>
 </details>
 <details class="honor-item">
-<summary><span>Department of Physics Research Funding Grant</span><span class="honor-date">January 2026 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/hws_logo.png" alt="HWS logo"><span>Department of Physics Research Funding Grant</span></span><span class="honor-date">January 2026 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Issued in support of an sEMG prosthesis project.</div>
 </details>
 <details class="honor-item">
-<summary><span>Summer Mentored Research Grant</span><span class="honor-date">June 2025 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/hws_logo.png" alt="HWS logo"><span>Summer Mentored Research Grant</span></span><span class="honor-date">June 2025 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Stipend issued to students in support of summer research efforts during the summer of 2025.</div>
 </details>
 <details class="honor-item">
-<summary><span>McGuire Study Abroad Fund</span><span class="honor-date">December 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/hws_logo.png" alt="HWS logo"><span>McGuire Study Abroad Fund</span></span><span class="honor-date">December 2024 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Issued to one student based on academic merit to financially support a study abroad experience, used in Seoul, South Korea.</div>
 </details>
 <details class="honor-item">
-<summary><span>Dept. of Psychological Science Dr. Stephen L. Cohen '67 Grant</span><span class="honor-date">February 2024 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/hws_logo.png" alt="HWS logo"><span>Dept. of Psychological Science Dr. Stephen L. Cohen '67 Grant</span></span><span class="honor-date">February 2024 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Issued to sponsor travel funds for the Eastern Psychological Association Conference in Philadelphia, Pennsylvania.</div>
 </details>
 <details class="honor-item">
-<summary><span>Posse Foundation Full-Tuition Leadership Scholarship</span><span class="honor-date">January 2021 <span class="honor-chevron">&#8964;</span></span></summary>
+<summary><span class="honor-title-wrap"><img class="honor-logo" src="../images/posse_logo.png" alt="Posse Foundation logo"><span>Posse Foundation Full-Tuition Leadership Scholarship</span></span><span class="honor-date">January 2021 <span class="honor-chevron">&#8964;</span></span></summary>
 <div class="honor-body">Awarded by the Posse Foundation, a nonprofit organization that partners with select colleges and universities in the United States to provide scholarships through a cohort-based model. Students receive four-year, full-tuition scholarships. Highly selective, merit and leadership based.</div>
 </details>
 </div>
