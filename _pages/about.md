@@ -46,18 +46,20 @@ redirect_from:
 .profile-name {
   font-size: 20px;
   font-weight: 600;
-  margin: 4px 0 2px;
+  margin: 4px 0 12px;
 }
-.profile-title {
-  font-size: 14px;
-  color: #666;
-  margin: 0 0 14px;
-}
-.profile-lead {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
+.profile-facts {
   margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.profile-facts li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  margin: 0 0 10px;
+  padding-left: 14px;
+  border-left: 2px solid #ddd;
 }
 .contact-links {
   display: flex;
@@ -126,8 +128,12 @@ redirect_from:
 </div>
 
 <p class="profile-name">Randy Hong</p>
-<p class="profile-title">Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</p>
-<p class="profile-lead">Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics.</p>
+
+<ul class="profile-facts">
+<li>Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</li>
+<li>B.S. Computational Neuroscience, Minor in Physics &mdash; Hobart and William Smith Colleges</li>
+<li>Phi Beta Kappa &amp; Summa Cum Laude, Joint Honors</li>
+</ul>
 
 </div>
 
@@ -167,9 +173,4 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     <p class="contact-title">GitHub <span class="contact-arrow">→</span></p>
     <p class="contact-desc">Browse the source code behind my projects and research.</p>
   </a>
-  <a class="contact-card reveal" href="mailto:randytranhong@gmail.com">
-    <p class="contact-label">Direct</p>
-    <p class="contact-title">Email <span class="contact-arrow">→</span></p>
-    <p class="contact-desc">Reach out directly to chat about research or collaboration.</p>
-  </a>
-</div>
+  <a
