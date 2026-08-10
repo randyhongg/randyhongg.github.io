@@ -30,31 +30,28 @@ redirect_from:
 .profile-banner {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
+  background: #f7f6f4;
+  border-radius: 12px;
+  padding: 20px;
   margin-bottom: 4px;
 }
 .profile-photo {
-  width: 150px;
+  width: 110px;
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 10px;
   display: block;
   flex-shrink: 0;
 }
-.profile-name {
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0 0 12px;
-  color: #999;
-}
 .profile-statement {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0 0 4px;
   color: #1a1a1a;
 }
 .profile-subtitle {
-  font-size: 15px;
+  font-size: 14px;
   color: #666;
   margin: 0;
 }
@@ -122,7 +119,6 @@ redirect_from:
 
 <div markdown="1">
 
-<p class="profile-name">Randy Hong</p>
 <p class="profile-statement">Ph.D. Student at the University of California, Davis.</p>
 <p class="profile-subtitle">Neuroscience Graduate Group.</p>
 
