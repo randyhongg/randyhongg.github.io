@@ -347,7 +347,7 @@ author_profile: false
 </details>
 <details class="honor-item">
 <summary><span>International Baccalaureate Diploma</span><span class="honor-date">May 2022 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this credential here.</div>
+<div class="honor-body">Demonstrates completion of the International Baccalaureate Diploma Program. Internationally recognized for its rigor and preparation of students for higher-level education. Obtainment of the diploma indicates the completion of IB examinations, an independent research paper, and an original community service project.</div>
 </details>
 </div>
 
@@ -356,23 +356,23 @@ author_profile: false
 <div class="resume-card honors-list">
 <details class="honor-item">
 <summary><span>NIH T32 Training Program in Basic Neuroscience Fellowship</span><span class="honor-date">May 2026 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this fellowship here.</div>
+<div class="honor-body">Selectively issued to incoming graduate students to support their neuroscience training. Provides trainees with one year of tuition, stipend, and travel funding to scientific conferences. Appointment is competitive and in recognition of outstanding undergraduate academic records and research experience.</div>
 </details>
 <details class="honor-item">
 <summary><span>Department of Physics Research Funding Grant</span><span class="honor-date">January 2026 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this grant here.</div>
+<div class="honor-body">Issued in support of an sEMG prosthesis project.</div>
 </details>
 <details class="honor-item">
 <summary><span>Summer Mentored Research Grant</span><span class="honor-date">June 2025 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this grant here.</div>
+<div class="honor-body">Stipend issued to students in support of summer research efforts during the summer of 2025.</div>
 </details>
 <details class="honor-item">
 <summary><span>McGuire Study Abroad Fund</span><span class="honor-date">December 2024 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this fund here.</div>
+<div class="honor-body">Issued to one student based on academic merit to financially support a study abroad experience, used in Seoul, South Korea.</div>
 </details>
 <details class="honor-item">
 <summary><span>Dept. of Psychological Science Dr. Stephen L. Cohen '67 Grant</span><span class="honor-date">February 2024 <span class="honor-chevron">&#8964;</span></span></summary>
-<div class="honor-body">Add details about this grant here.</div>
+<div class="honor-body">Issued to sponsor travel funds for the Eastern Psychological Association Conference in Philadelphia, Pennsylvania.</div>
 </details>
 <details class="honor-item">
 <summary><span>Posse Foundation Full-Tuition Leadership Scholarship</span><span class="honor-date">January 2021 <span class="honor-chevron">&#8964;</span></span></summary>
