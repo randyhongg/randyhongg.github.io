@@ -27,53 +27,10 @@ redirect_from:
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
-.profile-card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 22px;
-  margin-top: 14px;
-  max-width: 800px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-}
-.profile-header {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-.profile-photo {
-  width: 140px;
-  height: 140px;
-  border-radius: 12px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-.profile-name {
-  font-size: 19px;
-  font-weight: 600;
-  margin: 0;
-}
-.profile-title {
-  font-size: 14px;
-  color: #666;
-  margin: 4px 0 10px;
-}
-.profile-tagline {
-  font-size: 14px;
-  color: #444;
-  margin: 0;
-  line-height: 1.5;
-}
-.carousel-card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 14px;
-  margin-top: 14px;
-  max-width: 800px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-}
 .carousel {
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 10px;
+  margin-top: 6px;
 }
 .carousel-track {
   display: flex;
@@ -100,6 +57,36 @@ redirect_from:
 }
 .carousel-dot.active {
   background: #222;
+}
+.profile-strip {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+.profile-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.profile-name {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+.profile-title {
+  font-size: 13px;
+  color: #666;
+  margin: 2px 0 0;
+}
+.profile-tagline {
+  font-size: 15px;
+  color: #333;
+  margin: 14px 0 0;
+  line-height: 1.6;
 }
 .contact-links {
   display: flex;
@@ -150,29 +137,10 @@ redirect_from:
   color: #666;
   margin: 0;
 }
-@media (max-width: 480px) {
-  .profile-header {
-    flex-direction: column;
-    text-align: center;
-  }
-}
 </style>
 ## About Me
 
-<div class="profile-card reveal" markdown="1">
-
-<div class="profile-header">
-  <img class="profile-photo" src="../images/website_pfp.jpg" alt="Randy Hong">
-  <div>
-    <p class="profile-name">Randy Hong</p>
-    <p class="profile-title">Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</p>
-    <p class="profile-tagline">Decoding neural signals to build technology that restores what's been lost.</p>
-  </div>
-</div>
-
-</div>
-
-<div class="carousel-card reveal" markdown="1">
+<div class="reveal" markdown="1">
 
 <div class="carousel" id="photoCarousel">
   <div class="carousel-track" id="carouselTrack">
@@ -182,6 +150,16 @@ redirect_from:
   </div>
   <div class="carousel-dots" id="carouselDots"></div>
 </div>
+
+<div class="profile-strip">
+  <img class="profile-avatar" src="../images/website_pfp.jpg" alt="Randy Hong">
+  <div>
+    <p class="profile-name">Randy Hong</p>
+    <p class="profile-title">Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</p>
+  </div>
+</div>
+
+<p class="profile-tagline">Decoding neural signals to build technology that restores what's been lost.</p>
 
 </div>
 
