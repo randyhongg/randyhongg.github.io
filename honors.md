@@ -215,15 +215,22 @@ author_profile: false
 </div>
 </div>
 
-<div class="resume-card">
-<div class="rc-heading">
+<details class="resume-card">
+<summary>
 <div class="rc-heading-left">
 <img class="rc-logo" src="../images/hws_logo.png" alt="HWS logo">
 <div><span class="rc-title">B.S., Computational Neuroscience</span><br><span class="rc-org">Hobart and William Smith Colleges</span></div>
 </div>
-<span class="rc-dates">May 2026</span>
+<span class="rc-dates">May 2026 <span class="rc-chevron">&#8964;</span></span>
+</summary>
+<div class="rc-body">
+<ul>
+<li>GPA: 4.07/4.00</li>
+<li>Minor in Physics</li>
+<li>Relevant Coursework: Biopsychology, Sensation &amp; Perception, Anatomy, Electromagnetism, Quantum Mechanics, Electronics, Mathematical Methods, Computational Methods, Linear Algebra, Applications of Linear Algebra, Statistics</li>
+</ul>
 </div>
-</div>
+</details>
 
 <div class="resume-section-title">Research Experience</div>
 
