@@ -39,7 +39,6 @@ redirect_from:
   display: flex;
   align-items: center;
   gap: 18px;
-  margin-bottom: 16px;
 }
 .profile-photo {
   width: 140px;
@@ -64,10 +63,17 @@ redirect_from:
   margin: 0;
   line-height: 1.5;
 }
+.carousel-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 14px;
+  margin-top: 14px;
+  max-width: 800px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
 .carousel {
   overflow: hidden;
   border-radius: 8px;
-  margin-top: 16px;
 }
 .carousel-track {
   display: flex;
@@ -163,6 +169,10 @@ redirect_from:
     <p class="profile-tagline">Decoding neural signals to build technology that restores what's been lost.</p>
   </div>
 </div>
+
+</div>
+
+<div class="carousel-card reveal" markdown="1">
 
 <div class="carousel" id="photoCarousel">
   <div class="carousel-track" id="carouselTrack">
