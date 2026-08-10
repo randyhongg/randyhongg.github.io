@@ -38,37 +38,62 @@ redirect_from:
 .profile-header {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 18px;
   margin-bottom: 16px;
 }
 .profile-photo {
-  width: 72px;
-  height: 72px;
-  border-radius: 10px;
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
   object-fit: cover;
   flex-shrink: 0;
 }
 .profile-name {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 600;
   margin: 0;
 }
 .profile-title {
   font-size: 14px;
   color: #666;
-  margin: 2px 0 0;
+  margin: 4px 0 10px;
 }
-.profile-thumbs {
-  display: flex;
-  gap: 8px;
+.profile-tagline {
+  font-size: 14px;
+  color: #444;
+  margin: 0;
+  line-height: 1.5;
+}
+.carousel {
+  overflow: hidden;
+  border-radius: 8px;
   margin-top: 16px;
 }
-.profile-thumbs img {
-  width: 64px;
-  height: 64px;
-  border-radius: 8px;
-  object-fit: cover;
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.carousel-track img {
+  width: 100%;
   flex-shrink: 0;
+  height: 260px;
+  object-fit: cover;
+}
+.carousel-dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.carousel-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+}
+.carousel-dot.active {
+  background: #222;
 }
 .contact-links {
   display: flex;
@@ -119,20 +144,38 @@ redirect_from:
   color: #666;
   margin: 0;
 }
+@media (max-width: 480px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 </style>
 ## About Me
 
 <div class="profile-card reveal" markdown="1">
 
 <div class="profile-header">
-  <img class="profile-photo" src="../images/profile.png" alt="Randy Hong">
+  <img class="profile-photo" src="../images/website_pfp.jpg" alt="Randy Hong">
   <div>
     <p class="profile-name">Randy Hong</p>
     <p class="profile-title">Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</p>
+    <p class="profile-tagline">Decoding neural signals to build technology that restores what's been lost.</p>
   </div>
 </div>
 
-<div style="text-align: justify; text-align-last: justify;" markdown="1">
+<div class="carousel" id="photoCarousel">
+  <div class="carousel-track" id="carouselTrack">
+    <img src="../images/headshot.jpg" alt="Randy Hong headshot">
+    <img src="../images/holland.jpg" alt="Randy Hong receiving the Physics Holland Prize">
+    <img src="../images/prosthetic_pose.jpg" alt="Randy Hong with his mind-controlled prosthetic arm">
+  </div>
+  <div class="carousel-dots" id="carouselDots"></div>
+</div>
+
+</div>
+
+<div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem; margin-top: 1.5rem;" markdown="1">
 
 Ph.D. student in the Neuroscience Graduate Group at the University of California, Davis. Graduated Phi Beta Kappa & Summa Cum Laude with Joint Honors from Hobart and William Smith Colleges with a Bachelor of Science in Computational Neuroscience and minor in Physics. I am a first-generation Vietnamese-American from Los Angeles, California. Witnessing the tribulations of the Vietnamese refugee diaspora instilled a deep passion to uplift demographics suffering from loss. I aspire to contribute to neuroengineering efforts to assist impaired demographics and am interested in problems concerning human rights and systemic violence.
 
@@ -140,13 +183,45 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 </div>
 
-<div class="profile-thumbs">
-  <img src="../images/headshot.jpg" alt="Research photo 1">
-  <img src="../images/holland.jpg" alt="Research photo 2">
-  <img src="../images/prosthetic_pose.jpg" alt="Research photo 3">
-</div>
+<script>
+(function() {
+  const track = document.getElementById('carouselTrack');
+  const dotsContainer = document.getElementById('carouselDots');
+  const images = track.querySelectorAll('img');
+  let index = 0;
+  let timer;
 
-</div>
+  images.forEach((_, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => goTo(i));
+    dotsContainer.appendChild(dot);
+  });
+  const dots = dotsContainer.querySelectorAll('.carousel-dot');
+
+  function goTo(i) {
+    index = i;
+    track.style.transform = 'translateX(-' + (index * 100) + '%)';
+    dots.forEach((d, di) => d.classList.toggle('active', di === index));
+  }
+
+  function next() {
+    goTo((index + 1) % images.length);
+  }
+
+  function start() {
+    timer = setInterval(next, 4000);
+  }
+  function stop() {
+    clearInterval(timer);
+  }
+
+  start();
+  const carousel = document.getElementById('photoCarousel');
+  carousel.addEventListener('mouseenter', stop);
+  carousel.addEventListener('mouseleave', start);
+})();
+</script>
 
 ## Featured Stories
 
