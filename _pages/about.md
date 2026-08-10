@@ -42,25 +42,21 @@ redirect_from:
   flex-shrink: 0;
 }
 .profile-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  color: #999;
+}
+.profile-statement {
   font-size: 20px;
   font-weight: 600;
-  margin: 0 0 10px;
+  margin: 0 0 4px;
+  color: #1a1a1a;
 }
-.profile-facts {
+.profile-subtitle {
+  font-size: 15px;
+  color: #666;
   margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.profile-facts li {
-  font-size: 13px;
-  line-height: 1.5;
-  color: #444;
-  margin: 0 0 6px;
-  padding-left: 12px;
-  border-left: 2px solid #ddd;
-}
-.profile-facts li:last-child {
-  margin-bottom: 0;
 }
 .contact-links {
   display: flex;
@@ -127,12 +123,8 @@ redirect_from:
 <div markdown="1">
 
 <p class="profile-name">Randy Hong</p>
-
-<ul class="profile-facts">
-<li>Ph.D. Student, Neuroscience Graduate Group &mdash; UC Davis</li>
-<li>B.S. Computational Neuroscience, Minor in Physics &mdash; Hobart and William Smith Colleges</li>
-<li>Phi Beta Kappa &amp; Summa Cum Laude, Joint Honors</li>
-</ul>
+<p class="profile-statement">Ph.D. Student at the University of California, Davis.</p>
+<p class="profile-subtitle">Neuroscience Graduate Group.</p>
 
 </div>
 
@@ -177,4 +169,6 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   <a class="contact-card reveal" href="mailto:randytranhong@gmail.com">
     <p class="contact-label">Direct</p>
     <p class="contact-title">Email <span class="contact-arrow">→</span></p>
-    <p class="contact-desc">Reach out
+    <p class="contact-desc">Reach out directly to chat about research or collaboration.</p>
+  </a>
+</div>
