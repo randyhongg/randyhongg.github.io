@@ -8,40 +8,37 @@ author_profile: false
 .page__title {
   display: none;
 }
-.research-hero {
-  position: relative;
-  padding: 24px 0 8px;
-  overflow: hidden;
+.research-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 32px 0 6px;
 }
-.research-hero svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.18;
-  z-index: 0;
+.research-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: #f2f1eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
-.research-hero h2 {
-  position: relative;
-  z-index: 1;
-  margin: 0;
+.research-icon svg {
+  width: 18px;
+  height: 18px;
+  stroke: #666;
 }
-.research-section {
-  border-left: 3px solid #cfc9bb;
-  padding: 2px 0 2px 18px;
-  margin: 28px 0 10px;
-}
-.research-section-title {
+.research-heading-text {
   font-size: 17px;
   font-weight: 600;
-  margin: 0 0 4px;
+  margin: 0;
   color: #1a1a1a;
 }
-.research-section-subtitle {
-  font-size: 13px;
-  color: #888;
-  margin: 0;
+.research-divider {
+  height: 1px;
+  background: linear-gradient(to right, #ccc, transparent);
+  margin: 6px 0 16px 46px;
 }
 .cta-button-wrap {
   text-align: center;
@@ -66,31 +63,26 @@ author_profile: false
   transform: translateY(-2px);
 }
 </style>
+## Research Interests
+{: style="text-align: center;"}
 
-<div class="research-hero">
-  <svg viewBox="0 0 800 90" preserveAspectRatio="none">
-    <line x1="40" y1="20" x2="160" y2="65" stroke="#999" stroke-width="1"></line>
-    <line x1="160" y1="65" x2="290" y2="15" stroke="#999" stroke-width="1"></line>
-    <line x1="290" y1="15" x2="430" y2="60" stroke="#999" stroke-width="1"></line>
-    <line x1="160" y1="65" x2="290" y2="78" stroke="#999" stroke-width="1"></line>
-    <line x1="430" y1="60" x2="560" y2="22" stroke="#999" stroke-width="1"></line>
-    <line x1="560" y1="22" x2="690" y2="68" stroke="#999" stroke-width="1"></line>
-    <line x1="290" y1="78" x2="430" y2="60" stroke="#999" stroke-width="1"></line>
-    <circle cx="40" cy="20" r="4" fill="#888"></circle>
-    <circle cx="160" cy="65" r="4" fill="#888"></circle>
-    <circle cx="290" cy="15" r="4" fill="#888"></circle>
-    <circle cx="290" cy="78" r="4" fill="#888"></circle>
-    <circle cx="430" cy="60" r="4" fill="#888"></circle>
-    <circle cx="560" cy="22" r="4" fill="#888"></circle>
-    <circle cx="690" cy="68" r="4" fill="#888"></circle>
-  </svg>
-  <h2 style="text-align: center;">Research Interests</h2>
+<div class="research-heading">
+  <div class="research-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="7" y="7" width="10" height="10" rx="1.5"></rect>
+      <line x1="12" y1="2" x2="12" y2="5"></line>
+      <line x1="12" y1="19" x2="12" y2="22"></line>
+      <line x1="2" y1="12" x2="5" y2="12"></line>
+      <line x1="19" y1="12" x2="22" y2="12"></line>
+      <line x1="4.5" y1="4.5" x2="6.5" y2="6.5"></line>
+      <line x1="17.5" y1="17.5" x2="19.5" y2="19.5"></line>
+      <line x1="4.5" y1="19.5" x2="6.5" y2="17.5"></line>
+      <line x1="17.5" y1="6.5" x2="19.5" y2="4.5"></line>
+    </svg>
+  </div>
+  <p class="research-heading-text">Engineering deep learning algorithms to build more efficient neural interfaces</p>
 </div>
-
-<div class="research-section">
-  <p class="research-section-title">Engineering deep learning algorithms to build more efficient neural interfaces</p>
-  <p class="research-section-subtitle">Cost-efficient, generalizable approaches to decoding neural signals</p>
-</div>
+<div class="research-divider"></div>
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
@@ -103,10 +95,23 @@ Artificial neural networks have provided us with an approach towards translating
   <img src="../images/data_plot_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
-<div class="research-section">
-  <p class="research-section-title">Understanding network dynamics and routing strategies of neural computation</p>
-  <p class="research-section-subtitle">Biologically-inspired algorithms grounded in connectome structure</p>
+<div class="research-heading">
+  <div class="research-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="5" cy="6" r="2"></circle>
+      <circle cx="19" cy="6" r="2"></circle>
+      <circle cx="12" cy="12" r="2"></circle>
+      <circle cx="5" cy="18" r="2"></circle>
+      <circle cx="19" cy="18" r="2"></circle>
+      <line x1="6.6" y1="7.2" x2="10.6" y2="10.8"></line>
+      <line x1="17.4" y1="7.2" x2="13.4" y2="10.8"></line>
+      <line x1="10.6" y1="13.2" x2="6.6" y2="16.8"></line>
+      <line x1="13.4" y1="13.2" x2="17.4" y2="16.8"></line>
+    </svg>
+  </div>
+  <p class="research-heading-text">Understanding network dynamics and routing strategies of neural computation</p>
 </div>
+<div class="research-divider"></div>
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
