@@ -31,19 +31,11 @@ redirect_from:
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
-.profile-banner {
-  width: 100%;
-  aspect-ratio: 3 / 1;
-  overflow: hidden;
-  border-radius: 12px;
-  margin-bottom: 1.5rem;
-}
 .profile-banner-img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+  border-radius: 12px;
   display: block;
+  margin-bottom: 1.5rem;
 }
 .contact-links {
   display: flex;
@@ -98,9 +90,7 @@ redirect_from:
 
 ## About Me
 
-<div class="profile-banner">
-  <img class="profile-banner-img" src="../images/banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
-</div>
+<img class="profile-banner-img" src="../images/banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
 
 <div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
 
