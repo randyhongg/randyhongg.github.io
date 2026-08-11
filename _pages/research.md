@@ -8,10 +8,12 @@ author_profile: false
 .page__title {
   display: none;
 }
-.research-block {
-  margin: 40px 0 18px;
+.research-unit {
+  border-left: 2px solid #ddd;
+  padding-left: 20px;
+  margin: 40px 0;
 }
-.research-block:first-of-type {
+.research-unit:first-of-type {
   margin-top: 0;
 }
 .research-eyebrow {
@@ -25,8 +27,22 @@ author_profile: false
 .research-heading-text {
   font-size: 18px;
   font-weight: 600;
-  margin: 0;
+  margin: 0 0 14px;
   color: #1a1a1a;
+}
+.research-body {
+  text-align: justify;
+  text-align-last: justify;
+  margin-bottom: 16px;
+}
+.research-images {
+  display: flex;
+  gap: 12px;
+}
+.research-images img {
+  width: 49%;
+  border-radius: 6px;
+  display: block;
 }
 .cta-button-wrap {
   text-align: center;
@@ -54,36 +70,40 @@ author_profile: false
 ## Research Interests
 {: style="text-align: center;"}
 
-<div class="research-block">
+<div class="research-unit">
+
 <p class="research-eyebrow">Neural interfaces</p>
 <p class="research-heading-text">Engineering deep learning algorithms to build more efficient neural interfaces</p>
-</div>
 
-<div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
+<div class="research-body">
 
 Artificial neural networks have provided us with an approach towards translating noisy neural signals into motor function control, evident through the successes of prostheses and brain computer interfaces on the market. However, biological heterogeneity and model architectures that demand high quantities of training data have introduced challenges in making this technology accessible and generalizable. I am interested in using neuroscience and mathematical theory to forge approaches that are more cost efficient and accurate than contemporary data analysis methods. Particular interest in engineering non-invasive closed-loop neural interfaces.
 
-</div>  
-
-<div style="display: flex; gap: 12px; margin: 16px 0;">
-  <img src="../images/neural_network_visual.png" style="width: 49%; border-radius: 6px;">
-  <img src="../images/data_plot_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
-<div class="research-block">
+<div class="research-images">
+  <img src="../images/neural_network_visual.png">
+  <img src="../images/data_plot_visual.png">
+</div>
+
+</div>
+
+<div class="research-unit">
+
 <p class="research-eyebrow">Network dynamics</p>
 <p class="research-heading-text">Understanding network dynamics and routing strategies of neural computation</p>
-</div>
 
-<div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
+<div class="research-body">
 
 Despite our efforts, we understand very little about how the brain communicates information across its connectome from first principles due to limitations in our measurement tools. Whatever strategy is imposed is clearly very effective and efficient, being able to foster consciousness while consuming the same number of watts as a lightbulb, while only using neurons that are constrained to biophysical restrictions. This is in stark contrast to contemporary artifical intelligence models, which consume high quantities of energy and fail to recreate feats of the brain despite their nodes not being subject to biophysical restrictions. I am interested in studying network dynamics, connectome structure, and information passing strategies to develop biologically-inspired computational algorithms that are cost efficient and effective.  
 
 </div>
 
-<div style="display: flex; gap: 12px; margin: 16px 0;">
-  <img src="../images/sphere_visual.png" style="width: 49%; border-radius: 6px;">
-  <img src="../images/graph_visual.png" style="width: 49%; border-radius: 6px;">
+<div class="research-images">
+  <img src="../images/sphere_visual.png">
+  <img src="../images/graph_visual.png">
+</div>
+
 </div>
 
 <div class="cta-button-wrap">
