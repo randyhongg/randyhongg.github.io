@@ -8,37 +8,24 @@ author_profile: false
 .page__title {
   display: none;
 }
-.research-heading {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 32px 0 6px;
+.research-eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #b0b0b0;
+  margin: 32px 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ececec;
 }
-.research-icon {
-  width: 34px;
-  height: 34px;
-  border-radius: 8px;
-  background: #f2f1eb;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-.research-icon svg {
-  width: 18px;
-  height: 18px;
-  stroke: #666;
+.research-eyebrow:first-of-type {
+  margin-top: 0;
 }
 .research-heading-text {
   font-size: 17px;
   font-weight: 600;
-  margin: 0;
+  margin: 0 0 4px;
   color: #1a1a1a;
-}
-.research-divider {
-  height: 1px;
-  background: linear-gradient(to right, #ccc, transparent);
-  margin: 6px 0 16px 46px;
 }
 .cta-button-wrap {
   text-align: center;
@@ -66,23 +53,8 @@ author_profile: false
 ## Research Interests
 {: style="text-align: center;"}
 
-<div class="research-heading">
-  <div class="research-icon">
-    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="7" y="7" width="10" height="10" rx="1.5"></rect>
-      <line x1="12" y1="2" x2="12" y2="5"></line>
-      <line x1="12" y1="19" x2="12" y2="22"></line>
-      <line x1="2" y1="12" x2="5" y2="12"></line>
-      <line x1="19" y1="12" x2="22" y2="12"></line>
-      <line x1="4.5" y1="4.5" x2="6.5" y2="6.5"></line>
-      <line x1="17.5" y1="17.5" x2="19.5" y2="19.5"></line>
-      <line x1="4.5" y1="19.5" x2="6.5" y2="17.5"></line>
-      <line x1="17.5" y1="6.5" x2="19.5" y2="4.5"></line>
-    </svg>
-  </div>
-  <p class="research-heading-text">Engineering deep learning algorithms to build more efficient neural interfaces</p>
-</div>
-<div class="research-divider"></div>
+<p class="research-eyebrow">Neural interfaces</p>
+<p class="research-heading-text">Engineering deep learning algorithms to build more efficient neural interfaces</p>
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
@@ -95,23 +67,8 @@ Artificial neural networks have provided us with an approach towards translating
   <img src="../images/data_plot_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
-<div class="research-heading">
-  <div class="research-icon">
-    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="5" cy="6" r="2"></circle>
-      <circle cx="19" cy="6" r="2"></circle>
-      <circle cx="12" cy="12" r="2"></circle>
-      <circle cx="5" cy="18" r="2"></circle>
-      <circle cx="19" cy="18" r="2"></circle>
-      <line x1="6.6" y1="7.2" x2="10.6" y2="10.8"></line>
-      <line x1="17.4" y1="7.2" x2="13.4" y2="10.8"></line>
-      <line x1="10.6" y1="13.2" x2="6.6" y2="16.8"></line>
-      <line x1="13.4" y1="13.2" x2="17.4" y2="16.8"></line>
-    </svg>
-  </div>
-  <p class="research-heading-text">Understanding network dynamics and routing strategies of neural computation</p>
-</div>
-<div class="research-divider"></div>
+<p class="research-eyebrow">Network dynamics</p>
+<p class="research-heading-text">Understanding network dynamics and routing strategies of neural computation</p>
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
