@@ -27,37 +27,11 @@ redirect_from:
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
-.profile-banner {
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  background: #f7f6f4;
+.profile-banner-img {
+  width: 100%;
   border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 4px;
-}
-.profile-photo {
-  width: 190px;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border-radius: 10px;
   display: block;
-  flex-shrink: 0;
-}
-.profile-text {
-  border-left: 3px solid #ddd;
-  padding-left: 18px;
-}
-.profile-statement {
-  font-size: 19px;
-  font-weight: 600;
-  margin: 0 0 4px;
-  color: #1a1a1a;
-}
-.profile-subtitle {
-  font-size: 14px;
-  color: #666;
-  margin: 0;
+  margin-bottom: 1.5rem;
 }
 .contact-links {
   display: flex;
@@ -108,36 +82,12 @@ redirect_from:
   color: #666;
   margin: 0;
 }
-@media (max-width: 480px) {
-  .profile-banner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .profile-text {
-    border-left: none;
-    padding-left: 0;
-    border-top: 3px solid #ddd;
-    padding-top: 12px;
-    margin-top: 4px;
-  }
-}
 </style>
 ## About Me
 
-<div class="profile-banner" markdown="1">
+<img class="profile-banner-img" src="../images/banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
 
-<img class="profile-photo" src="../images/website_pfp.jpg" alt="Randy Hong">
-
-<div class="profile-text" markdown="1">
-
-<p class="profile-statement">Ph.D. Student at the University of California, Davis.</p>
-<p class="profile-subtitle">Neuroscience Graduate Group.</p>
-
-</div>
-
-</div>
-
-<div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem; margin-top: 1.5rem;" markdown="1">
+<div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
 
 I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.
 
