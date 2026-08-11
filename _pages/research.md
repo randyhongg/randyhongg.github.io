@@ -8,6 +8,41 @@ author_profile: false
 .page__title {
   display: none;
 }
+.research-hero {
+  position: relative;
+  padding: 24px 0 8px;
+  overflow: hidden;
+}
+.research-hero svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.18;
+  z-index: 0;
+}
+.research-hero h2 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+.research-section {
+  border-left: 3px solid #cfc9bb;
+  padding: 2px 0 2px 18px;
+  margin: 28px 0 10px;
+}
+.research-section-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: #1a1a1a;
+}
+.research-section-subtitle {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
 .cta-button-wrap {
   text-align: center;
   margin: 8px 0 40px;
@@ -31,10 +66,31 @@ author_profile: false
   transform: translateY(-2px);
 }
 </style>
-## Research Interests
-{: style="text-align: center;"}
 
-**Engineering deep learning algorithms to build more efficient neural interfaces**
+<div class="research-hero">
+  <svg viewBox="0 0 800 90" preserveAspectRatio="none">
+    <line x1="40" y1="20" x2="160" y2="65" stroke="#999" stroke-width="1"></line>
+    <line x1="160" y1="65" x2="290" y2="15" stroke="#999" stroke-width="1"></line>
+    <line x1="290" y1="15" x2="430" y2="60" stroke="#999" stroke-width="1"></line>
+    <line x1="160" y1="65" x2="290" y2="78" stroke="#999" stroke-width="1"></line>
+    <line x1="430" y1="60" x2="560" y2="22" stroke="#999" stroke-width="1"></line>
+    <line x1="560" y1="22" x2="690" y2="68" stroke="#999" stroke-width="1"></line>
+    <line x1="290" y1="78" x2="430" y2="60" stroke="#999" stroke-width="1"></line>
+    <circle cx="40" cy="20" r="4" fill="#888"></circle>
+    <circle cx="160" cy="65" r="4" fill="#888"></circle>
+    <circle cx="290" cy="15" r="4" fill="#888"></circle>
+    <circle cx="290" cy="78" r="4" fill="#888"></circle>
+    <circle cx="430" cy="60" r="4" fill="#888"></circle>
+    <circle cx="560" cy="22" r="4" fill="#888"></circle>
+    <circle cx="690" cy="68" r="4" fill="#888"></circle>
+  </svg>
+  <h2 style="text-align: center;">Research Interests</h2>
+</div>
+
+<div class="research-section">
+  <p class="research-section-title">Engineering deep learning algorithms to build more efficient neural interfaces</p>
+  <p class="research-section-subtitle">Cost-efficient, generalizable approaches to decoding neural signals</p>
+</div>
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
@@ -47,7 +103,10 @@ Artificial neural networks have provided us with an approach towards translating
   <img src="../images/data_plot_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
-**Understanding network dynamics and routing strategies of neural computation**
+<div class="research-section">
+  <p class="research-section-title">Understanding network dynamics and routing strategies of neural computation</p>
+  <p class="research-section-subtitle">Biologically-inspired algorithms grounded in connectome structure</p>
+</div>
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
