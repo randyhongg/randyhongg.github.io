@@ -93,6 +93,8 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 </div>
 
+<a class="cta-button" href="/research/">Read more about my research →</a>
+
 ## Featured Stories
 
 <div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
