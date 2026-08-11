@@ -41,14 +41,7 @@ author_profile: false
 }
 .cta-section {
   text-align: center;
-  margin: 64px 0 48px;
-  padding-top: 40px;
-  border-top: 1px solid #ececec;
-}
-.cta-lead {
-  font-size: 15px;
-  color: #666;
-  margin: 0 0 16px;
+  margin: 56px 0;
 }
 .cta-button {
   display: inline-flex;
@@ -105,7 +98,6 @@ Despite our efforts, we understand very little about how the brain communicates 
 </div>
 
 <div class="cta-section">
-  <p class="cta-lead">See how these ideas translate into practice.</p>
   <a class="cta-button" href="/projects/">View my projects <span>→</span></a>
 </div>
 
@@ -123,53 +115,4 @@ Despite our efforts, we understand very little about how the brain communicates 
 }
 .conference-photos-wide .photo-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-.conference-photos-wide figure {
-  margin: 0;
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  background-color: #fff;
-}
-.conference-photos-wide img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  display: block;
-}
-.conference-photos-wide figcaption {
-  padding: 10px 14px;
-  font-size: 13px;
-  color: #666;
-  text-align: center;
-}
-@media (max-width: 700px) {
-  .conference-photos-wide .photo-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-</style>
-
-<div class="conference-photos-wide">
-  <div class="photo-grid">
-    <figure>
-      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
-      <figcaption>NetSci 2026, Boston, MA</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/rochsym2026.jpg" alt="Rochester Symposium 2026">
-      <figcaption>Rochester Symposium for Physics Students 2026, Rochester, NY</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/ras_lina.jpg" alt="RAS 2024">
-      <figcaption>Rochester Academy of Science 2024, Rochester, NY</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/epa.jpg" alt="Eastern Psychological Association 2024">
-      <figcaption>Eastern Psychological Association 2024, Philadelphia, PA</figcaption>
-    </figure>
-  </div>
-</div>
+  grid-template-columns:
