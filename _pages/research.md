@@ -39,27 +39,45 @@ author_profile: false
   border-radius: 6px;
   display: block;
 }
-.cta-section {
-  text-align: center;
-  margin: 56px 0;
-}
-.cta-button {
-  display: inline-flex;
+.project-card {
+  display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 13px 26px;
+  gap: 20px;
   border: 1px solid #ddd;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 600;
-  color: #222;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 56px auto 0;
+  max-width: 620px;
+  cursor: pointer;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
-.cta-button:hover {
+.project-card:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
+}
+.project-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.project-card-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 6px;
+  color: #1a1a1a;
+}
+.project-card-desc {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 10px;
+}
+.project-card-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: #222;
 }
 </style>
 
@@ -97,8 +115,13 @@ Despite our efforts, we understand very little about how the brain communicates 
 
 </div>
 
-<div class="cta-section">
-  <a class="cta-button" href="/projects/">View my projects <span>→</span></a>
+<div class="project-card" onclick="window.location.href='/projects/'">
+  <img src="../images/prosthetic_pose.jpg" alt="Projects preview">
+  <div>
+    <p class="project-card-title">Projects</p>
+    <p class="project-card-desc">See these research interests applied to hands-on builds, from prosthetics to signal processing pipelines.</p>
+    <span class="project-card-link">View my projects →</span>
+  </div>
 </div>
 
 ## Conference Presentations
@@ -115,4 +138,53 @@ Despite our efforts, we understand very little about how the brain communicates 
 }
 .conference-photos-wide .photo-grid {
   display: grid;
-  grid-template-columns:
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.conference-photos-wide figure {
+  margin: 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+.conference-photos-wide img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+.conference-photos-wide figcaption {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .conference-photos-wide .photo-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+</style>
+
+<div class="conference-photos-wide">
+  <div class="photo-grid">
+    <figure>
+      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <figcaption>NetSci 2026, Boston, MA</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/rochsym2026.jpg" alt="Rochester Symposium 2026">
+      <figcaption>Rochester Symposium for Physics Students 2026, Rochester, NY</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/ras_lina.jpg" alt="RAS 2024">
+      <figcaption>Rochester Academy of Science 2024, Rochester, NY</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/epa.jpg" alt="Eastern Psychological Association 2024">
+      <figcaption>Eastern Psychological Association 2024, Philadelphia, PA</figcaption>
+    </figure>
+  </div>
+</div>
