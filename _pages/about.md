@@ -1,15 +1,11 @@
 ---
-
 permalink: /
 title: "About Me"
 author_profile: false
-redirect_from:
-
-* /about/
-* /about.html
-
+redirect_from: 
+  - /about/
+  - /about.html
 ---
-
 <style>
 .page__title {
   display: none;
@@ -87,10 +83,9 @@ redirect_from:
   margin: 0;
 }
 </style>
-
 ## About Me
 
-<img class="profile-banner-img" src="../images/banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
+<img class="profile-banner-img" src="../images/about_banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
 
 <div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
 
@@ -117,7 +112,6 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </div>
 
 ## Contact Me
-
 <div class="contact-links">
   <a class="contact-card reveal" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
     <p class="contact-label">Network</p>
