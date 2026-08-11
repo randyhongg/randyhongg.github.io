@@ -12,10 +12,7 @@ main:
     url: /research/
 
   - title: "Resume"
-    url: /resume/ 
-  
-  - title: "Personal"
-    url: /personal/        
+    url: /resume/         
     
   # - title: "CV"
   #   url: /cv-json/
