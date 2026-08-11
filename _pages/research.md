@@ -61,7 +61,7 @@ author_profile: false
   transform: translateY(-2px);
 }
 </style>
-## Research Interests
+
 {: style="text-align: center;"}
 
 <div class="research-unit">
