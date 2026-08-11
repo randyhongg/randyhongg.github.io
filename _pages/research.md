@@ -8,23 +8,24 @@ author_profile: false
 .page__title {
   display: none;
 }
+.research-block {
+  margin: 40px 0 18px;
+}
+.research-block:first-of-type {
+  margin-top: 0;
+}
 .research-eyebrow {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #b0b0b0;
-  margin: 32px 0 14px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ececec;
-}
-.research-eyebrow:first-of-type {
-  margin-top: 0;
+  margin: 0 0 6px;
 }
 .research-heading-text {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
-  margin: 0 0 4px;
+  margin: 0;
   color: #1a1a1a;
 }
 .cta-button-wrap {
@@ -53,8 +54,10 @@ author_profile: false
 ## Research Interests
 {: style="text-align: center;"}
 
+<div class="research-block">
 <p class="research-eyebrow">Neural interfaces</p>
 <p class="research-heading-text">Engineering deep learning algorithms to build more efficient neural interfaces</p>
+</div>
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
@@ -67,8 +70,10 @@ Artificial neural networks have provided us with an approach towards translating
   <img src="../images/data_plot_visual.png" style="width: 49%; border-radius: 6px;">
 </div>
 
+<div class="research-block">
 <p class="research-eyebrow">Network dynamics</p>
 <p class="research-heading-text">Understanding network dynamics and routing strategies of neural computation</p>
+</div>
 
 <div style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;">  
 
