@@ -20,15 +20,9 @@ author_profile: false
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #a3a3a3;
-  margin: 0 0 6px;
-}
-.research-heading-text {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.3;
-  margin: 0 0 18px;
-  color: #1a1a1a;
-  max-width: 560px;
+  margin: 0 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ececec;
 }
 .research-body {
   text-align: justify;
@@ -73,7 +67,6 @@ author_profile: false
 <div class="research-unit">
 
 <p class="research-eyebrow">Neural interfaces</p>
-<p class="research-heading-text">Engineering deep learning algorithms to build more efficient neural interfaces</p>
 
 <div class="research-body">
 
@@ -91,7 +84,6 @@ Artificial neural networks have provided us with an approach towards translating
 <div class="research-unit">
 
 <p class="research-eyebrow">Network dynamics</p>
-<p class="research-heading-text">Understanding network dynamics and routing strategies of neural computation</p>
 
 <div class="research-body">
 
