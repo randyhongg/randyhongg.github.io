@@ -9,10 +9,7 @@ author_profile: false
   display: none;
 }
 .research-unit {
-  background: #f7f6f4;
-  border-radius: 12px;
-  padding: 24px 26px;
-  margin: 32px 0;
+  margin: 56px 0;
 }
 .research-unit:first-of-type {
   margin-top: 0;
@@ -22,20 +19,21 @@ author_profile: false
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #999;
+  color: #a3a3a3;
   margin: 0 0 6px;
 }
 .research-heading-text {
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0 0 14px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 18px;
   color: #1a1a1a;
+  max-width: 560px;
 }
 .research-body {
   text-align: justify;
   text-align-last: justify;
-  margin-bottom: 16px;
-  color: #333;
+  margin-bottom: 24px;
 }
 .research-images {
   display: flex;
@@ -45,7 +43,6 @@ author_profile: false
   width: 49%;
   border-radius: 6px;
   display: block;
-  border: 1px solid #e5e2da;
 }
 .cta-button-wrap {
   text-align: center;
