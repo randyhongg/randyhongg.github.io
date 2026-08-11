@@ -19,10 +19,11 @@ author_profile: false
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: #666;
   margin: 0 0 14px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ececec;
+  text-align: center;
 }
 .research-body {
   text-align: justify;
@@ -38,19 +39,26 @@ author_profile: false
   border-radius: 6px;
   display: block;
 }
-.cta-button-wrap {
+.cta-section {
   text-align: center;
-  margin: 8px 0 40px;
+  margin: 64px 0 48px;
+  padding-top: 40px;
+  border-top: 1px solid #ececec;
+}
+.cta-lead {
+  font-size: 15px;
+  color: #666;
+  margin: 0 0 16px;
 }
 .cta-button {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 11px 22px;
+  gap: 8px;
+  padding: 13px 26px;
   border: 1px solid #ddd;
   border-radius: 8px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   color: #222;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
@@ -62,9 +70,7 @@ author_profile: false
 }
 </style>
 
-{: style="text-align: center;"}
-
-<div class="research-unit">
+<div class="research-unit" style="margin-top: 24px;">
 
 <p class="research-eyebrow">Neural interfaces</p>
 
@@ -98,8 +104,9 @@ Despite our efforts, we understand very little about how the brain communicates 
 
 </div>
 
-<div class="cta-button-wrap">
-  <a class="cta-button" href="/projects/">View My Projects <span>→</span></a>
+<div class="cta-section">
+  <p class="cta-lead">See how these ideas translate into practice.</p>
+  <a class="cta-button" href="/projects/">View my projects <span>→</span></a>
 </div>
 
 ## Conference Presentations
