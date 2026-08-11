@@ -82,6 +82,29 @@ redirect_from:
   color: #666;
   margin: 0;
 }
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 800px;
+  margin: 56px auto 0;
+  padding: 18px 24px;
+  background: #ececea;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+.cta-button:hover {
+  background: #e2e0dc;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
 </style>
 ## About Me
 
