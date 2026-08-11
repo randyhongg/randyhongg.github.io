@@ -39,45 +39,28 @@ author_profile: false
   border-radius: 6px;
   display: block;
 }
-.project-card {
+.cta-button {
   display: flex;
   align-items: center;
-  gap: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 18px;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 800px;
   margin: 56px auto 0;
-  max-width: 620px;
-  cursor: pointer;
+  padding: 18px 24px;
+  background: #ececea;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
-.project-card:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+.cta-button:hover {
+  background: #e2e0dc;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
-}
-.project-card img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 8px;
-  flex-shrink: 0;
-}
-.project-card-title {
-  font-size: 17px;
-  font-weight: 600;
-  margin: 0 0 6px;
-  color: #1a1a1a;
-}
-.project-card-desc {
-  font-size: 14px;
-  color: #666;
-  margin: 0 0 10px;
-}
-.project-card-link {
-  font-size: 13px;
-  font-weight: 600;
-  color: #222;
 }
 </style>
 
@@ -115,14 +98,7 @@ Despite our efforts, we understand very little about how the brain communicates 
 
 </div>
 
-<div class="project-card" onclick="window.location.href='/projects/'">
-  <img src="../images/prosthetic_pose.jpg" alt="Projects preview">
-  <div>
-    <p class="project-card-title">Projects</p>
-    <p class="project-card-desc">See these research interests applied to hands-on builds, from prosthetics to signal processing pipelines.</p>
-    <span class="project-card-link">View my projects →</span>
-  </div>
-</div>
+<a class="cta-button" href="/projects/">View my projects →</a>
 
 ## Conference Presentations
 {: style="text-align: center;"}
