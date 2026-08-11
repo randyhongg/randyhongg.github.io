@@ -14,7 +14,6 @@ redirect_from:
 .page__title {
   display: none;
 }
-
 .story-card {
   display: flex;
   align-items: center;
@@ -28,13 +27,10 @@ redirect_from:
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
-
 .story-card:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
-
-/* Banner */
 .profile-banner {
   width: 100%;
   aspect-ratio: 3 / 1;
@@ -42,7 +38,6 @@ redirect_from:
   border-radius: 12px;
   margin-bottom: 1.5rem;
 }
-
 .profile-banner-img {
   width: 100%;
   height: 100%;
@@ -50,14 +45,12 @@ redirect_from:
   object-position: center;
   display: block;
 }
-
 .contact-links {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
   margin-top: 14px;
 }
-
 .contact-card {
   flex: 1 1 220px;
   max-width: 260px;
@@ -69,13 +62,11 @@ redirect_from:
   transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
   display: block;
 }
-
 .contact-card:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
   border-color: #999;
 }
-
 .contact-card .contact-label {
   font-size: 11px;
   letter-spacing: 0.06em;
@@ -83,7 +74,6 @@ redirect_from:
   color: #999;
   margin: 0 0 6px;
 }
-
 .contact-card .contact-title {
   font-size: 17px;
   font-weight: 600;
@@ -93,15 +83,12 @@ redirect_from:
   align-items: center;
   justify-content: space-between;
 }
-
 .contact-card .contact-arrow {
   transition: transform 0.2s ease;
 }
-
 .contact-card:hover .contact-arrow {
   transform: translateX(4px);
 }
-
 .contact-card .contact-desc {
   font-size: 13px;
   color: #666;
@@ -147,13 +134,11 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     <p class="contact-title">LinkedIn <span class="contact-arrow">→</span></p>
     <p class="contact-desc">Connect with me for professional inquiries.</p>
   </a>
-
   <a class="contact-card reveal" href="https://github.com/randyhongg" target="_blank">
     <p class="contact-label">Repository</p>
     <p class="contact-title">GitHub <span class="contact-arrow">→</span></p>
     <p class="contact-desc">Browse the source code behind my projects and research.</p>
   </a>
-
   <a class="contact-card reveal" href="mailto:randytranhong@gmail.com">
     <p class="contact-label">Direct</p>
     <p class="contact-title">Email <span class="contact-arrow">→</span></p>
