@@ -83,7 +83,6 @@ redirect_from:
   margin: 0;
 }
 </style>
-## About Me
 
 <img class="profile-banner-img" src="../images/banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
 
