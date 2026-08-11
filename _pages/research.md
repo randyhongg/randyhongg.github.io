@@ -9,9 +9,10 @@ author_profile: false
   display: none;
 }
 .research-unit {
-  border-left: 2px solid #ddd;
-  padding-left: 20px;
-  margin: 40px 0;
+  background: #f7f6f4;
+  border-radius: 12px;
+  padding: 24px 26px;
+  margin: 32px 0;
 }
 .research-unit:first-of-type {
   margin-top: 0;
@@ -21,7 +22,7 @@ author_profile: false
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #b0b0b0;
+  color: #999;
   margin: 0 0 6px;
 }
 .research-heading-text {
@@ -34,6 +35,7 @@ author_profile: false
   text-align: justify;
   text-align-last: justify;
   margin-bottom: 16px;
+  color: #333;
 }
 .research-images {
   display: flex;
@@ -43,6 +45,7 @@ author_profile: false
   width: 49%;
   border-radius: 6px;
   display: block;
+  border: 1px solid #e5e2da;
 }
 .cta-button-wrap {
   text-align: center;
