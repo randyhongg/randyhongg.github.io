@@ -305,7 +305,7 @@ author_profile: false
 <summary>
 <div class="rc-heading-left">
 <span class="rc-logo-frame"><img src="../images/tri_alpha_logo.png" alt="Tri-Alpha logo"></span>
-<div><span class="rc-title">Tri-Alpha Honor Society</span></div>
+<div><span class="rc-title">Tri-Alpha</span></div>
 </div>
 <span class="rc-dates">March 2024 <span class="rc-chevron">&#8964;</span></span>
 </summary>
@@ -316,7 +316,7 @@ author_profile: false
 <summary>
 <div class="rc-heading-left">
 <img class="rc-logo" src="../images/psi_chi_logo.png" alt="Psi Chi logo">
-<div><span class="rc-title">Psi Chi Honor Society</span></div>
+<div><span class="rc-title">Psi Chi</span></div>
 </div>
 <span class="rc-dates">February 2024 <span class="rc-chevron">&#8964;</span></span>
 </summary>
