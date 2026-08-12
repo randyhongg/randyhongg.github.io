@@ -261,8 +261,12 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
       <figcaption>St. Patrick's Day at the Chicago River, March 2026</figcaption>
     </figure>
     <figure>
-      <img src="../images/namsan.jpg" alt="NetSci 2026">
+      <img src="../images/namsan.jpg" alt="Namsan">
       <figcaption>Namsan Tower in Seoul, March 2025</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/yonsei.jpg" alt="Yonsei">
+      <figcaption>Study Abroad at Yonsei University in South Korea, March 2025</figcaption>
     </figure>
     <figure>
       <img src="../images/vietnam.jpg" alt="Saigon">
