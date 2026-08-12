@@ -112,28 +112,22 @@ redirect_from:
   left: 50%;
   transform: translateX(-50%);
   margin: 32px 0;
-  overflow: hidden;
 }
-.photo-slider-track {
+.photo-slider {
   display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
   gap: 20px;
-  width: max-content;
-  animation: photoMarquee 45s linear infinite;
+  padding: 4px 4px 16px;
+  scrollbar-width: none;
 }
-.photo-slider-wrap:hover .photo-slider-track {
-  animation-play-state: paused;
+.photo-slider::-webkit-scrollbar {
+  display: none;
 }
-@keyframes photoMarquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-.photo-slider-track figure {
+.photo-slider figure {
   flex: 0 0 auto;
   width: 320px;
+  scroll-snap-align: start;
   margin: 0;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
@@ -142,17 +136,39 @@ redirect_from:
   background-color: #fff;
   cursor: pointer;
 }
-.photo-slider-track img {
+.photo-slider img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
 }
-.photo-slider-track figcaption {
+.photo-slider figcaption {
   padding: 10px 14px;
   font-size: 13px;
   color: #666;
   text-align: center;
+}
+.photo-slider-nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+.photo-slider-nav button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.photo-slider-nav button:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 .photo-lightbox {
   display: none;
@@ -198,7 +214,7 @@ redirect_from:
   line-height: 1;
 }
 @media (max-width: 700px) {
-  .photo-slider-track figure {
+  .photo-slider figure {
     width: 260px;
   }
 }
@@ -216,7 +232,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 ## Photos
 
 <div class="photo-slider-wrap">
-  <div class="photo-slider-track" id="photoSliderTrack">
+  <div class="photo-slider" id="photoSlider">
     <figure>
       <img src="../images/speaker.jpg" alt="Commencement">
       <figcaption>Delivering my Speech as the Selected Student Speaker at Commencement, May 2026</figcaption>
@@ -249,39 +265,10 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
       <img src="../images/netsci2026.jpg" alt="NetSci 2026">
       <figcaption>NetSci 2026, Boston, MA</figcaption>
     </figure>
-    <!-- duplicated set below, required for a seamless continuous loop -->
-    <figure>
-      <img src="../images/speaker.jpg" alt="Commencement">
-      <figcaption>Delivering my Speech as the Selected Student Speaker at Commencement, May 2026</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/holland_win.jpg" alt="Holland Teach">
-      <figcaption>Presentation of "Deriving the E&M Wave Equation using Maxwell's Equation", April 2026</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/holland_judge.jpg" alt="Holland Judge">
-      <figcaption>Victory Following the 25th Annual Physics Prize Competition, April 2026</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/pbk_pose.jpg" alt="Phi Beta Kappa induction">
-      <figcaption>Induction into Phi Beta Kappa, April 2026</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/chicago.jpg" alt="Chicago River">
-      <figcaption>Chicago River, March 2026</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/vietnam.jpg" alt="Saigon">
-      <figcaption>Saigon 2026</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
-      <figcaption>NetSci 2026, Boston, MA</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
-      <figcaption>NetSci 2026, Boston, MA</figcaption>
-    </figure>
+  </div>
+  <div class="photo-slider-nav">
+    <button id="photoSliderPrev" aria-label="Previous photo">←</button>
+    <button id="photoSliderNext" aria-label="Next photo">→</button>
   </div>
 </div>
 
@@ -295,14 +282,55 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 <script>
 (function() {
-  const track = document.getElementById('photoSliderTrack');
+  const slider = document.getElementById('photoSlider');
+  const prevBtn = document.getElementById('photoSliderPrev');
+  const nextBtn = document.getElementById('photoSliderNext');
   const lightbox = document.getElementById('photoLightbox');
   const lightboxImg = document.getElementById('photoLightboxImg');
   const lightboxCaption = document.getElementById('photoLightboxCaption');
   const lightboxClose = document.getElementById('photoLightboxClose');
-  if (!track || !lightbox) return;
+  if (!slider) return;
 
-  track.querySelectorAll('figure').forEach((figure) => {
+  const card = slider.querySelector('figure');
+  if (!card) return;
+  const gap = 20;
+  let autoTimer;
+  let suppressClick = false;
+
+  function cardStep() {
+    return card.getBoundingClientRect().width + gap;
+  }
+
+  function scrollByCard(direction) {
+    slider.scrollBy({ left: direction * cardStep(), behavior: 'smooth' });
+  }
+
+  function advance() {
+    const atEnd = slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 5;
+    if (atEnd) {
+      slider.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+      scrollByCard(1);
+    }
+  }
+
+  function startAuto() {
+    stopAuto();
+    autoTimer = setInterval(advance, 3000);
+  }
+  function stopAuto() {
+    clearInterval(autoTimer);
+  }
+
+  prevBtn.addEventListener('click', () => { scrollByCard(-1); stopAuto(); startAuto(); });
+  nextBtn.addEventListener('click', () => { scrollByCard(1); stopAuto(); startAuto(); });
+
+  slider.addEventListener('mouseenter', stopAuto);
+  slider.addEventListener('mouseleave', startAuto);
+  slider.addEventListener('touchstart', stopAuto, { passive: true });
+  slider.addEventListener('touchend', startAuto);
+
+  slider.querySelectorAll('figure').forEach((figure) => {
     figure.addEventListener('click', () => {
       const img = figure.querySelector('img');
       const caption = figure.querySelector('figcaption');
@@ -324,6 +352,8 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeLightbox();
   });
+
+  startAuto();
 })();
 </script>
 
