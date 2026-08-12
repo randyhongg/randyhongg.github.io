@@ -162,20 +162,32 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 <div class="personal-photos-wide">
   <div class="photo-grid">
     <figure>
-      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <img src="../images/speaker.jpg" alt="Commencement">
+      <figcaption>Delivering my Speech as the Selected Student Speaker at Commencement, May 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/holland_win.jpg" alt="Holland Teach">
+      <figcaption>Presentation of "Deriving the E&M Wave Equation using Maxwell's Equation", April 2026 </figcaption>
+    </figure>
+    <figure>
+      <img src="../images/holland_judge.jpg" alt="Holland Judge">
+      <figcaption>Victory Following the 25th Annual Physics Prize Competition, April 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/pbk_pose.jpg" alt="Eastern Psychological Association 2024">
+      <figcaption>Induction into Phi Beta Kappa, April 2026</figcaption>
+    </figure>
+    <img src="../images/chicago.jpg" alt="NetSci 2026">
+      <figcaption>Chicago River, March 2026</figcaption>
+    </figure>
+    <img src="../images/vietnam.jpg" alt="NetSci 2026">
+      <figcaption>Saigon 2026</figcaption>
+    </figure>
+    <img src="../images/netsci2026.jpg" alt="NetSci 2026">
       <figcaption>NetSci 2026, Boston, MA</figcaption>
     </figure>
-    <figure>
-      <img src="../images/rochsym2026.jpg" alt="Rochester Symposium 2026">
-      <figcaption>Rochester Symposium for Physics Students 2026, Rochester, NY</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/ras_lina.jpg" alt="RAS 2024">
-      <figcaption>Rochester Academy of Science 2024, Rochester, NY</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/epa.jpg" alt="Eastern Psychological Association 2024">
-      <figcaption>Eastern Psychological Association 2024, Philadelphia, PA</figcaption>
+    <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <figcaption>NetSci 2026, Boston, MA</figcaption>
     </figure>
   </div>
 </div>
