@@ -39,3 +39,8 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Hide the footer completely */
+.page__footer {
+  display: none !important;
+}
