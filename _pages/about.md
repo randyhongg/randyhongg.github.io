@@ -178,3 +178,138 @@ redirect_from:
 ## About Me
 
 <img class="profile-banner-img" src="../images/banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
+
+<div class="reveal" style="text-align: justify; text-align-last: justify; margin-bottom: 2rem;" markdown="1">
+
+I am interested in decoding neural signals and interfacing with the brain. My catalyst into mathematics stemmed from a need to interpret neural signals and blossomed into a deep appreciation of its application towards understanding phenomena of the physical world. My coursework in theoretical physics (electromagnetism, quantum mechanics) reaffirmed this admiration; behind abstraction laid truths that become tangible through mathematical rigor.
+
+</div>
+
+## Photos
+
+<div class="photo-slider-wrap">
+  <div class="photo-slider" id="photoSlider">
+    <figure>
+      <img src="../images/speaker.jpg" alt="Commencement">
+      <figcaption>Delivering my Speech as the Selected Student Speaker at Commencement, May 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/holland_win.jpg" alt="Holland Teach">
+      <figcaption>Presentation of "Deriving the E&M Wave Equation using Maxwell's Equation", April 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/holland_judge.jpg" alt="Holland Judge">
+      <figcaption>Victory Following the 25th Annual Physics Prize Competition, April 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/pbk_pose.jpg" alt="Phi Beta Kappa induction">
+      <figcaption>Induction into Phi Beta Kappa, April 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/chicago.jpg" alt="Chicago River">
+      <figcaption>Chicago River, March 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/vietnam.jpg" alt="Saigon">
+      <figcaption>Saigon 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <figcaption>NetSci 2026, Boston, MA</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <figcaption>NetSci 2026, Boston, MA</figcaption>
+    </figure>
+  </div>
+  <div class="photo-slider-nav">
+    <button id="photoSliderPrev" aria-label="Previous photo">←</button>
+    <button id="photoSliderNext" aria-label="Next photo">→</button>
+  </div>
+</div>
+
+<script>
+(function() {
+  const slider = document.getElementById('photoSlider');
+  const prevBtn = document.getElementById('photoSliderPrev');
+  const nextBtn = document.getElementById('photoSliderNext');
+  if (!slider) return;
+
+  const card = slider.querySelector('figure');
+  if (!card) return;
+  const gap = 20;
+  let autoTimer;
+
+  function cardStep() {
+    return card.getBoundingClientRect().width + gap;
+  }
+
+  function scrollByCard(direction) {
+    slider.scrollBy({ left: direction * cardStep(), behavior: 'smooth' });
+  }
+
+  function advance() {
+    const atEnd = slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 5;
+    if (atEnd) {
+      slider.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+      scrollByCard(1);
+    }
+  }
+
+  function startAuto() {
+    stopAuto();
+    autoTimer = setInterval(advance, 3500);
+  }
+  function stopAuto() {
+    clearInterval(autoTimer);
+  }
+
+  prevBtn.addEventListener('click', () => { scrollByCard(-1); stopAuto(); startAuto(); });
+  nextBtn.addEventListener('click', () => { scrollByCard(1); stopAuto(); startAuto(); });
+
+  slider.addEventListener('mouseenter', stopAuto);
+  slider.addEventListener('mouseleave', startAuto);
+  slider.addEventListener('touchstart', stopAuto, { passive: true });
+  slider.addEventListener('touchend', startAuto);
+
+  startAuto();
+})();
+</script>
+
+## Featured Stories
+
+<div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
+  <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+  <div>
+    <strong style="font-size: 17px;">Randy Hong '26 Built a Mind-Controlled Prosthetic Arm. Next Stop: UC Davis.</strong>
+    <p style="margin: 6px 0 0; font-size: 15px; color: #666;">HWS Office of Communications</p>
+  </div>
+</div>
+
+<div class="story-card" onclick="window.open('https://www.possefoundation.org/news-and-events/hws-commencement-speaker-begins-next-chapter-in-neuroscience', '_blank')">
+  <img src="images/commencement_speaker.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+  <div>
+    <strong style="font-size: 17px;">HWS Commencement Speaker Begins Next Chapter in Neuroscience</strong>
+    <p style="margin: 6px 0 0; font-size: 15px; color: #666;">The Posse Foundation</p>
+  </div>
+</div>
+
+## Contact Me
+<div class="contact-links">
+  <a class="contact-card reveal" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
+    <p class="contact-label">Network</p>
+    <p class="contact-title">LinkedIn <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Connect with me for professional inquiries.</p>
+  </a>
+  <a class="contact-card reveal" href="https://github.com/randyhongg" target="_blank">
+    <p class="contact-label">Repository</p>
+    <p class="contact-title">GitHub <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Browse the source code behind my projects and research.</p>
+  </a>
+  <a class="contact-card reveal" href="mailto:randytranhong@gmail.com">
+    <p class="contact-label">Direct</p>
+    <p class="contact-title">Email <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Reach out directly to chat about research or collaboration.</p>
+  </a>
+</div>
