@@ -116,10 +116,12 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 </div>
 
+## Photos
+
 <style>
 .personal-photos-wide {
   width: 90vw;
-  max-width: 800px;
+  max-width: 1500px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -127,7 +129,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 }
 .personal-photos-wide .photo-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 .personal-photos-wide figure {
