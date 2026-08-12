@@ -135,21 +135,12 @@ redirect_from:
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   background-color: #fff;
   cursor: pointer;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-.photo-slider figure:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-  transform: translateY(-2px);
 }
 .photo-slider img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s ease;
-}
-.photo-slider figure:hover img {
-  transform: scale(1.04);
 }
 .photo-slider figcaption {
   padding: 10px 14px;
@@ -229,7 +220,6 @@ redirect_from:
 }
 </style>
 ## About Me
-{: style="text-align: center;"}
 
 <img class="profile-banner-img" src="../images/banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
 
@@ -240,7 +230,6 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </div>
 
 ## Photos
-{: style="text-align: center;"}
 
 <div class="photo-slider-wrap">
   <div class="photo-slider" id="photoSlider">
@@ -302,73 +291,46 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   const lightboxClose = document.getElementById('photoLightboxClose');
   if (!slider) return;
 
-  const figures = slider.querySelectorAll('figure');
-  const totalFigures = figures.length;
+  const card = slider.querySelector('figure');
+  if (!card) return;
   const gap = 20;
-  let currentIndex = 0;
   let autoTimer;
+  let suppressClick = false;
 
   function cardStep() {
-    return figures[0].getBoundingClientRect().width + gap;
+    return card.getBoundingClientRect().width + gap;
   }
 
-  function scrollToIndex(index, smooth) {
-    slider.scrollTo({ left: index * cardStep(), behavior: smooth ? 'smooth' : 'auto' });
+  function scrollByCard(direction) {
+    slider.scrollBy({ left: direction * cardStep(), behavior: 'smooth' });
   }
 
-  function goToNext() {
-    currentIndex++;
-    
-    // If we've reached the last photo, go back to the beginning
-    if (currentIndex >= totalFigures) {
-      currentIndex = 0;
-      scrollToIndex(currentIndex, false);
-      return;
+  function advance() {
+    const atEnd = slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 5;
+    if (atEnd) {
+      slider.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+      scrollByCard(1);
     }
-    
-    scrollToIndex(currentIndex, true);
-  }
-
-  function goToPrev() {
-    currentIndex--;
-    
-    // If we've gone before the first photo, go to the last
-    if (currentIndex < 0) {
-      currentIndex = totalFigures - 1;
-      scrollToIndex(currentIndex, false);
-      return;
-    }
-    
-    scrollToIndex(currentIndex, true);
   }
 
   function startAuto() {
     stopAuto();
-    autoTimer = setInterval(goToNext, 2500);
+    autoTimer = setInterval(advance, 3000);
   }
-  
   function stopAuto() {
     clearInterval(autoTimer);
   }
 
-  prevBtn.addEventListener('click', () => { 
-    goToPrev(); 
-    stopAuto(); 
-    startAuto(); 
-  });
-  
-  nextBtn.addEventListener('click', () => { 
-    goToNext(); 
-    stopAuto(); 
-    startAuto(); 
-  });
+  prevBtn.addEventListener('click', () => { scrollByCard(-1); stopAuto(); startAuto(); });
+  nextBtn.addEventListener('click', () => { scrollByCard(1); stopAuto(); startAuto(); });
 
   slider.addEventListener('mouseenter', stopAuto);
   slider.addEventListener('mouseleave', startAuto);
   slider.addEventListener('touchstart', stopAuto, { passive: true });
   slider.addEventListener('touchend', startAuto);
 
-  figures.forEach((figure) => {
+  slider.querySelectorAll('figure').forEach((figure) => {
     figure.addEventListener('click', () => {
       const img = figure.querySelector('img');
       const caption = figure.querySelector('figcaption');
@@ -391,13 +353,11 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     if (e.key === 'Escape') closeLightbox();
   });
 
-  // Start autoscrolling
   startAuto();
 })();
 </script>
 
 ## Featured Stories
-{: style="text-align: center;"}
 
 <div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
   <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
@@ -416,8 +376,6 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </div>
 
 ## Contact Me
-{: style="text-align: center;"}
-
 <div class="contact-links">
   <a class="contact-card reveal" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
     <p class="contact-label">Network</p>
