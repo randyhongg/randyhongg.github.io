@@ -242,7 +242,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   <div class="photo-slider" id="photoSlider">
     <figure>
       <img src="../images/speaker.jpg" alt="Commencement">
-      <figcaption>Delivering my Speech as the Selected Student Speaker at Commencement, May 2026</figcaption>
+      <figcaption>Delivering my Speech at Commencement, May 2026</figcaption>
     </figure>
     <figure>
       <img src="../images/holland_win.jpg" alt="Holland Teach">
@@ -250,7 +250,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     </figure>
     <figure>
       <img src="../images/holland_judge.jpg" alt="Holland Judge">
-      <figcaption>Victory Following the 25th Annual Physics Prize Competition, April 2026</figcaption>
+      <figcaption>Post Winning the 25th Annual Physics Prize Competition, April 2026</figcaption>
     </figure>
     <figure>
       <img src="../images/pbk_pose.jpg" alt="Phi Beta Kappa induction">
@@ -258,19 +258,19 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     </figure>
     <figure>
       <img src="../images/chicago.jpg" alt="Chicago River">
-      <figcaption>Chicago River, March 2026</figcaption>
+      <figcaption>St. Patrick's Day at the Chicago River, March 2026</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/namsan.jpg" alt="NetSci 2026">
+      <figcaption>Namsan Tower in Seoul, March 2025</figcaption>
     </figure>
     <figure>
       <img src="../images/vietnam.jpg" alt="Saigon">
-      <figcaption>Saigon 2026</figcaption>
+      <figcaption>Midnight in Saigon, January 2025</figcaption>
     </figure>
     <figure>
-      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
-      <figcaption>NetSci 2026, Boston, MA</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
-      <figcaption>NetSci 2026, Boston, MA</figcaption>
+      <img src="../images/mid_autumn.jpg" alt="Mid Autumn">
+      <figcaption>Mid-Autumn Festival, October 2023</figcaption>
     </figure>
   </div>
   <div class="photo-slider-nav">
