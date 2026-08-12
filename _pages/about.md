@@ -276,39 +276,6 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
       <img src="../images/netsci2026.jpg" alt="NetSci 2026">
       <figcaption>NetSci 2026, Boston, MA</figcaption>
     </figure>
-    <!-- duplicated set below, required for a seamless forward loop -->
-    <figure aria-hidden="true">
-      <img src="../images/speaker.jpg" alt="Commencement">
-      <figcaption>Delivering my Speech as the Selected Student Speaker at Commencement, May 2026</figcaption>
-    </figure>
-    <figure aria-hidden="true">
-      <img src="../images/holland_win.jpg" alt="Holland Teach">
-      <figcaption>Presentation of "Deriving the E&M Wave Equation using Maxwell's Equation", April 2026</figcaption>
-    </figure>
-    <figure aria-hidden="true">
-      <img src="../images/holland_judge.jpg" alt="Holland Judge">
-      <figcaption>Victory Following the 25th Annual Physics Prize Competition, April 2026</figcaption>
-    </figure>
-    <figure aria-hidden="true">
-      <img src="../images/pbk_pose.jpg" alt="Phi Beta Kappa induction">
-      <figcaption>Induction into Phi Beta Kappa, April 2026</figcaption>
-    </figure>
-    <figure aria-hidden="true">
-      <img src="../images/chicago.jpg" alt="Chicago River">
-      <figcaption>Chicago River, March 2026</figcaption>
-    </figure>
-    <figure aria-hidden="true">
-      <img src="../images/vietnam.jpg" alt="Saigon">
-      <figcaption>Saigon 2026</figcaption>
-    </figure>
-    <figure aria-hidden="true">
-      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
-      <figcaption>NetSci 2026, Boston, MA</figcaption>
-    </figure>
-    <figure aria-hidden="true">
-      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
-      <figcaption>NetSci 2026, Boston, MA</figcaption>
-    </figure>
   </div>
   <div class="photo-slider-nav">
     <button id="photoSliderPrev" aria-label="Previous photo">←</button>
@@ -336,7 +303,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   if (!slider) return;
 
   const figures = slider.querySelectorAll('figure');
-  const originalCount = figures.length / 2;
+  const totalFigures = figures.length;
   const gap = 20;
   let currentIndex = 0;
   let autoTimer;
@@ -349,39 +316,52 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     slider.scrollTo({ left: index * cardStep(), behavior: smooth ? 'smooth' : 'auto' });
   }
 
-  function advance(direction) {
-    currentIndex += direction;
-
-    if (currentIndex >= figures.length - 1) {
-      // We've reached the duplicated end: scroll to it, then instantly
-      // rewind to the visually identical spot in the original set.
-      scrollToIndex(currentIndex, true);
-      setTimeout(() => {
-        currentIndex = currentIndex - originalCount;
-        scrollToIndex(currentIndex, false);
-      }, 500);
-      return;
-    }
-
-    if (currentIndex < 0) {
-      currentIndex = originalCount - 1;
+  function goToNext() {
+    currentIndex++;
+    
+    // If we've reached the last photo, go back to the beginning
+    if (currentIndex >= totalFigures) {
+      currentIndex = 0;
       scrollToIndex(currentIndex, false);
       return;
     }
+    
+    scrollToIndex(currentIndex, true);
+  }
 
+  function goToPrev() {
+    currentIndex--;
+    
+    // If we've gone before the first photo, go to the last
+    if (currentIndex < 0) {
+      currentIndex = totalFigures - 1;
+      scrollToIndex(currentIndex, false);
+      return;
+    }
+    
     scrollToIndex(currentIndex, true);
   }
 
   function startAuto() {
     stopAuto();
-    autoTimer = setInterval(() => advance(1), 3000);
+    autoTimer = setInterval(goToNext, 2500);
   }
+  
   function stopAuto() {
     clearInterval(autoTimer);
   }
 
-  prevBtn.addEventListener('click', () => { advance(-1); stopAuto(); startAuto(); });
-  nextBtn.addEventListener('click', () => { advance(1); stopAuto(); startAuto(); });
+  prevBtn.addEventListener('click', () => { 
+    goToPrev(); 
+    stopAuto(); 
+    startAuto(); 
+  });
+  
+  nextBtn.addEventListener('click', () => { 
+    goToNext(); 
+    stopAuto(); 
+    startAuto(); 
+  });
 
   slider.addEventListener('mouseenter', stopAuto);
   slider.addEventListener('mouseleave', startAuto);
@@ -411,6 +391,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
     if (e.key === 'Escape') closeLightbox();
   });
 
+  // Start autoscrolling
   startAuto();
 })();
 </script>
