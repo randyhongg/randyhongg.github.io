@@ -177,15 +177,19 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
       <img src="../images/pbk_pose.jpg" alt="Eastern Psychological Association 2024">
       <figcaption>Induction into Phi Beta Kappa, April 2026</figcaption>
     </figure>
+    <figure>
     <img src="../images/chicago.jpg" alt="NetSci 2026">
       <figcaption>Chicago River, March 2026</figcaption>
     </figure>
+    <figure>
     <img src="../images/vietnam.jpg" alt="NetSci 2026">
       <figcaption>Saigon 2026</figcaption>
     </figure>
+    <figure>
     <img src="../images/netsci2026.jpg" alt="NetSci 2026">
       <figcaption>NetSci 2026, Boston, MA</figcaption>
     </figure>
+    <figure>
     <img src="../images/netsci2026.jpg" alt="NetSci 2026">
       <figcaption>NetSci 2026, Boston, MA</figcaption>
     </figure>
