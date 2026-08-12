@@ -116,6 +116,69 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 </div>
 
+<style>
+.personal-photos-wide {
+  width: 90vw;
+  max-width: 900px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 32px 0;
+}
+.personal-photos-wide .photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.personal-photos-wide figure {
+  margin: 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+.personal-photos-wide img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+.personal-photos-wide figcaption {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .personal-photos-wide .photo-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+</style>
+
+<div class="personal-photos-wide">
+  <div class="photo-grid">
+    <figure>
+      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <figcaption>NetSci 2026, Boston, MA</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/rochsym2026.jpg" alt="Rochester Symposium 2026">
+      <figcaption>Rochester Symposium for Physics Students 2026, Rochester, NY</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/ras_lina.jpg" alt="RAS 2024">
+      <figcaption>Rochester Academy of Science 2024, Rochester, NY</figcaption>
+    </figure>
+    <figure>
+      <img src="../images/epa.jpg" alt="Eastern Psychological Association 2024">
+      <figcaption>Eastern Psychological Association 2024, Philadelphia, PA</figcaption>
+    </figure>
+  </div>
+</div>
+
+
 ## Featured Stories
 
 <div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
