@@ -1,3 +1,5 @@
+---
+---
 /*
  * This file controls what is imported from /_sass
  *
@@ -38,7 +40,5 @@
   transform: translateY(0);
 }
 
-/* Hide the footer completely */
-.page__footer {
-  display: none !important;
-}
+/* Hide footer text */
+.page__footer .page__footer-copyright { display: none !important; }
