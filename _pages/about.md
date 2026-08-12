@@ -105,6 +105,75 @@ redirect_from:
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
 }
+.photo-slider-wrap {
+  width: 90vw;
+  max-width: 1200px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 32px 0;
+}
+.photo-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 4px 4px 16px;
+  scrollbar-width: none;
+}
+.photo-slider::-webkit-scrollbar {
+  display: none;
+}
+.photo-slider figure {
+  flex: 0 0 auto;
+  width: 320px;
+  scroll-snap-align: start;
+  margin: 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+.photo-slider img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+.photo-slider figcaption {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+.photo-slider-nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+.photo-slider-nav button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.photo-slider-nav button:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+@media (max-width: 700px) {
+  .photo-slider figure {
+    width: 260px;
+  }
+}
 </style>
 ## About Me
 
@@ -118,84 +187,66 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 ## Photos
 
-<style>
-.personal-photos-wide {
-  width: 90vw;
-  max-width: 1600px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 32px 0;
-}
-.personal-photos-wide .photo-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
-.personal-photos-wide figure {
-  margin: 0;
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  background-color: #fff;
-}
-.personal-photos-wide img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  display: block;
-}
-.personal-photos-wide figcaption {
-  padding: 10px 14px;
-  font-size: 13px;
-  color: #666;
-  text-align: center;
-}
-@media (max-width: 700px) {
-  .personal-photos-wide .photo-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-</style>
-
-<div class="personal-photos-wide">
-  <div class="photo-grid">
+<div class="photo-slider-wrap">
+  <div class="photo-slider" id="photoSlider">
     <figure>
       <img src="../images/speaker.jpg" alt="Commencement">
       <figcaption>Delivering my Speech as the Selected Student Speaker at Commencement, May 2026</figcaption>
     </figure>
     <figure>
       <img src="../images/holland_win.jpg" alt="Holland Teach">
-      <figcaption>Presentation of "Deriving the E&M Wave Equation using Maxwell's Equation", April 2026 </figcaption>
+      <figcaption>Presentation of "Deriving the E&M Wave Equation using Maxwell's Equation", April 2026</figcaption>
     </figure>
     <figure>
       <img src="../images/holland_judge.jpg" alt="Holland Judge">
       <figcaption>Victory Following the 25th Annual Physics Prize Competition, April 2026</figcaption>
     </figure>
     <figure>
-      <img src="../images/pbk_pose.jpg" alt="Eastern Psychological Association 2024">
+      <img src="../images/pbk_pose.jpg" alt="Phi Beta Kappa induction">
       <figcaption>Induction into Phi Beta Kappa, April 2026</figcaption>
     </figure>
     <figure>
-    <img src="../images/chicago.jpg" alt="NetSci 2026">
+      <img src="../images/chicago.jpg" alt="Chicago River">
       <figcaption>Chicago River, March 2026</figcaption>
     </figure>
     <figure>
-    <img src="../images/vietnam.jpg" alt="NetSci 2026">
+      <img src="../images/vietnam.jpg" alt="Saigon">
       <figcaption>Saigon 2026</figcaption>
     </figure>
     <figure>
-    <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
       <figcaption>NetSci 2026, Boston, MA</figcaption>
     </figure>
     <figure>
-    <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
       <figcaption>NetSci 2026, Boston, MA</figcaption>
     </figure>
   </div>
+  <div class="photo-slider-nav">
+    <button id="photoSliderPrev" aria-label="Previous photo">←</button>
+    <button id="photoSliderNext" aria-label="Next photo">→</button>
+  </div>
 </div>
 
+<script>
+(function() {
+  const slider = document.getElementById('photoSlider');
+  const prevBtn = document.getElementById('photoSliderPrev');
+  const nextBtn = document.getElementById('photoSliderNext');
+  if (!slider) return;
+
+  function scrollByCard(direction) {
+    const card = slider.querySelector('figure');
+    if (!card) return;
+    const cardWidth = card.getBoundingClientRect().width;
+    const gap = 20;
+    slider.scrollBy({ left: direction * (cardWidth + gap), behavior: 'smooth' });
+  }
+
+  prevBtn.addEventListener('click', () => scrollByCard(-1));
+  nextBtn.addEventListener('click', () => scrollByCard(1));
+})();
+</script>
 
 ## Featured Stories
 
