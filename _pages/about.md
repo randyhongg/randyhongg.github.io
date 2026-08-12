@@ -242,7 +242,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   <div class="photo-slider" id="photoSlider">
     <figure>
       <img src="../images/speaker.jpg" alt="Commencement">
-      <figcaption>Delivering my Speech at Commencement, May 2026</figcaption>
+      <figcaption>Delivering the Senior Student Speech at Commencement, May 2026</figcaption>
     </figure>
     <figure>
       <img src="../images/holland_win.jpg" alt="Holland Teach">
