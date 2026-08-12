@@ -135,12 +135,21 @@ redirect_from:
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   background-color: #fff;
   cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.photo-slider figure:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
 }
 .photo-slider img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
+  transition: transform 0.3s ease;
+}
+.photo-slider figure:hover img {
+  transform: scale(1.04);
 }
 .photo-slider figcaption {
   padding: 10px 14px;
