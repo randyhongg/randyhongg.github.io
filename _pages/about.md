@@ -220,6 +220,7 @@ redirect_from:
 }
 </style>
 ## About Me
+{: style="text-align: center;"}
 
 <img class="profile-banner-img" src="../images/banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
 
@@ -230,6 +231,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </div>
 
 ## Photos
+{: style="text-align: center;"}
 
 <div class="photo-slider-wrap">
   <div class="photo-slider" id="photoSlider">
@@ -265,6 +267,39 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
       <img src="../images/netsci2026.jpg" alt="NetSci 2026">
       <figcaption>NetSci 2026, Boston, MA</figcaption>
     </figure>
+    <!-- duplicated set below, required for a seamless forward loop -->
+    <figure aria-hidden="true">
+      <img src="../images/speaker.jpg" alt="Commencement">
+      <figcaption>Delivering my Speech as the Selected Student Speaker at Commencement, May 2026</figcaption>
+    </figure>
+    <figure aria-hidden="true">
+      <img src="../images/holland_win.jpg" alt="Holland Teach">
+      <figcaption>Presentation of "Deriving the E&M Wave Equation using Maxwell's Equation", April 2026</figcaption>
+    </figure>
+    <figure aria-hidden="true">
+      <img src="../images/holland_judge.jpg" alt="Holland Judge">
+      <figcaption>Victory Following the 25th Annual Physics Prize Competition, April 2026</figcaption>
+    </figure>
+    <figure aria-hidden="true">
+      <img src="../images/pbk_pose.jpg" alt="Phi Beta Kappa induction">
+      <figcaption>Induction into Phi Beta Kappa, April 2026</figcaption>
+    </figure>
+    <figure aria-hidden="true">
+      <img src="../images/chicago.jpg" alt="Chicago River">
+      <figcaption>Chicago River, March 2026</figcaption>
+    </figure>
+    <figure aria-hidden="true">
+      <img src="../images/vietnam.jpg" alt="Saigon">
+      <figcaption>Saigon 2026</figcaption>
+    </figure>
+    <figure aria-hidden="true">
+      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <figcaption>NetSci 2026, Boston, MA</figcaption>
+    </figure>
+    <figure aria-hidden="true">
+      <img src="../images/netsci2026.jpg" alt="NetSci 2026">
+      <figcaption>NetSci 2026, Boston, MA</figcaption>
+    </figure>
   </div>
   <div class="photo-slider-nav">
     <button id="photoSliderPrev" aria-label="Previous photo">←</button>
@@ -291,46 +326,60 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   const lightboxClose = document.getElementById('photoLightboxClose');
   if (!slider) return;
 
-  const card = slider.querySelector('figure');
-  if (!card) return;
+  const figures = slider.querySelectorAll('figure');
+  const originalCount = figures.length / 2;
   const gap = 20;
+  let currentIndex = 0;
   let autoTimer;
-  let suppressClick = false;
 
   function cardStep() {
-    return card.getBoundingClientRect().width + gap;
+    return figures[0].getBoundingClientRect().width + gap;
   }
 
-  function scrollByCard(direction) {
-    slider.scrollBy({ left: direction * cardStep(), behavior: 'smooth' });
+  function scrollToIndex(index, smooth) {
+    slider.scrollTo({ left: index * cardStep(), behavior: smooth ? 'smooth' : 'auto' });
   }
 
-  function advance() {
-    const atEnd = slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 5;
-    if (atEnd) {
-      slider.scrollTo({ left: 0, behavior: 'smooth' });
-    } else {
-      scrollByCard(1);
+  function advance(direction) {
+    currentIndex += direction;
+
+    if (currentIndex >= figures.length - 1) {
+      // We've reached the duplicated end: scroll to it, then instantly
+      // rewind to the visually identical spot in the original set.
+      scrollToIndex(currentIndex, true);
+      setTimeout(() => {
+        currentIndex = currentIndex - originalCount;
+        scrollToIndex(currentIndex, false);
+      }, 500);
+      return;
     }
+
+    if (currentIndex < 0) {
+      currentIndex = originalCount - 1;
+      scrollToIndex(currentIndex, false);
+      return;
+    }
+
+    scrollToIndex(currentIndex, true);
   }
 
   function startAuto() {
     stopAuto();
-    autoTimer = setInterval(advance, 3000);
+    autoTimer = setInterval(() => advance(1), 3000);
   }
   function stopAuto() {
     clearInterval(autoTimer);
   }
 
-  prevBtn.addEventListener('click', () => { scrollByCard(-1); stopAuto(); startAuto(); });
-  nextBtn.addEventListener('click', () => { scrollByCard(1); stopAuto(); startAuto(); });
+  prevBtn.addEventListener('click', () => { advance(-1); stopAuto(); startAuto(); });
+  nextBtn.addEventListener('click', () => { advance(1); stopAuto(); startAuto(); });
 
   slider.addEventListener('mouseenter', stopAuto);
   slider.addEventListener('mouseleave', startAuto);
   slider.addEventListener('touchstart', stopAuto, { passive: true });
   slider.addEventListener('touchend', startAuto);
 
-  slider.querySelectorAll('figure').forEach((figure) => {
+  figures.forEach((figure) => {
     figure.addEventListener('click', () => {
       const img = figure.querySelector('img');
       const caption = figure.querySelector('figcaption');
@@ -358,6 +407,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </script>
 
 ## Featured Stories
+{: style="text-align: center;"}
 
 <div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
   <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
@@ -376,6 +426,8 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </div>
 
 ## Contact Me
+{: style="text-align: center;"}
+
 <div class="contact-links">
   <a class="contact-card reveal" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
     <p class="contact-label">Network</p>
