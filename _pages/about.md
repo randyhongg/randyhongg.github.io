@@ -121,7 +121,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 <style>
 .personal-photos-wide {
   width: 90vw;
-  max-width: 1500px;
+  max-width: 1600px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
