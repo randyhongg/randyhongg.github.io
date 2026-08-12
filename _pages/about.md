@@ -213,13 +213,19 @@ redirect_from:
   cursor: pointer;
   line-height: 1;
 }
+.section-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
 @media (max-width: 700px) {
   .photo-slider figure {
     width: 260px;
   }
 }
 </style>
+
 ## About Me
+{: .section-title}
 
 <img class="profile-banner-img" src="../images/banner.jpg" alt="Randy Hong, Ph.D. Student, University of California Davis, Neuroscience Graduate Group">
 
@@ -230,6 +236,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </div>
 
 ## Photos
+{: .section-title}
 
 <div class="photo-slider-wrap">
   <div class="photo-slider" id="photoSlider">
@@ -358,6 +365,7 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </script>
 
 ## Featured Stories
+{: .section-title}
 
 <div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
   <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
@@ -376,6 +384,8 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 </div>
 
 ## Contact Me
+{: .section-title}
+
 <div class="contact-links">
   <a class="contact-card reveal" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
     <p class="contact-label">Network</p>
