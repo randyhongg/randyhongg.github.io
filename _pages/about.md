@@ -142,6 +142,13 @@ redirect_from:
   object-fit: cover;
   display: block;
 }
+.photo-slider figure img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+.photo-slider figure:hover img {
+  transform: scale(1.06);
+  filter: brightness(1.05);
+}
 .photo-slider figcaption {
   padding: 10px 14px;
   font-size: 13px;
