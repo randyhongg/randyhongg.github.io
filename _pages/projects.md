@@ -45,7 +45,7 @@ author_profile: false
 <div class="projects-wide">
 
 <div class="project-card">
-  <img src="../images/arm_pose.jpg" alt="Project 1">
+  <img src="../images/fig4.png" alt="Project 1">
   <div class="project-content">
     <h3 style="margin: 0 0 4px;">Synthetic sEMG Signal Generation for Mitigating Hand Gesture Prediction Performance Loss in Myoelectric Prosthesis Post Sensor Channel Failure</h3>
     <p style="margin: 0 0 4px; font-size: 13px; color: #888;">Randy Hong, Hanqing Hu Ph.D., Ileana Dumitriu Ph.D.</p>
