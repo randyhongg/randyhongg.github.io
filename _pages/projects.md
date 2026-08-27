@@ -52,6 +52,7 @@ author_profile: false
     <p style="margin: 0 0 8px; text-align: justify; text-align-last: justify;">We simualated sEMG sensor failures in the emg2pose dataset and measured the impact on the vemg2pose hand gesture recognition model. Then, we proposd an LSTM based framework that synthesizes sEMG data for failed channels to mitigate their effects on the benchmark model.</p>
     <a href="https://github.com/randyhongg/project-repo" target="_blank" style="font-size: 14px;">View project →</a>
   </div>
+</div>
 
 <div class="project-card">
   <img src="../images/arm_pose.jpg" alt="Project 1">
