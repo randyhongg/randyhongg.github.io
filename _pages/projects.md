@@ -47,6 +47,15 @@ author_profile: false
 <div class="project-card">
   <img src="../images/arm_pose.jpg" alt="Project 1">
   <div class="project-content">
+    <h3 style="margin: 0 0 4px;">Synthetic sEMG Signal Generation for Mitigating Hand Gesture Prediction Performance Loss in Myoelectric Prosthesis Post Sensor Channel Failure</h3>
+    <p style="margin: 0 0 4px; font-size: 13px; color: #888;">Randy Hong, Hanqing Hu Ph.D., Ileana Dumitriu Ph.D.</p>
+    <p style="margin: 0 0 8px; text-align: justify; text-align-last: justify;">We simualated sEMG sensor failures in the emg2pose dataset and measured the impact on the vemg2pose hand gesture recognition model. Then, we proposd an LSTM based framework that synthesizes sEMG data for failed channels to mitigate their effects on the benchmark model.</p>
+    <a href="https://github.com/randyhongg/project-repo" target="_blank" style="font-size: 14px;">View project →</a>
+  </div>
+
+<div class="project-card">
+  <img src="../images/arm_pose.jpg" alt="Project 1">
+  <div class="project-content">
     <h3 style="margin: 0 0 4px;">sEMG-Based Motor Function Translation of a Prosthesis</h3>
     <p style="margin: 0 0 4px; font-size: 13px; color: #888;">Randy Hong, Ileana Dumitriu Ph.D.</p>
     <p style="margin: 0 0 8px; text-align: justify; text-align-last: justify;">Using Myoware 2.0 sEMG sensors and an ESP32, we recorded and transmitted neural signals from the forearm to a gesture classification model. An Arduino Uno and PCA9685 rotated motors of the fingers of a 3D-printed prosthesis to specific degrees to recreate the hand pose.</p>
