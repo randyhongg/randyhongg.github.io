@@ -242,6 +242,46 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
 
 </div>
 
+## Featured Stories
+{: .section-title}
+
+<div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
+  <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+  <div>
+    <strong style="font-size: 17px;">Randy Hong '26 Built a Mind-Controlled Prosthetic Arm. Next Stop: UC Davis.</strong>
+    <p style="margin: 6px 0 0; font-size: 15px; color: #666;">HWS Office of Communications</p>
+  </div>
+</div>
+
+<div class="story-card" onclick="window.open('https://www.possefoundation.org/news-and-events/hws-commencement-speaker-begins-next-chapter-in-neuroscience', '_blank')">
+  <img src="images/commencement_speaker.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
+  <div>
+    <strong style="font-size: 17px;">HWS Commencement Speaker Begins Next Chapter in Neuroscience</strong>
+    <p style="margin: 6px 0 0; font-size: 15px; color: #666;">The Posse Foundation</p>
+  </div>
+</div>
+
+## Contact Me
+{: .section-title}
+
+<div class="contact-links">
+  <a class="contact-card reveal" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
+    <p class="contact-label">Network</p>
+    <p class="contact-title">LinkedIn <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Connect with me for professional inquiries.</p>
+  </a>
+  <a class="contact-card reveal" href="https://github.com/randyhongg" target="_blank">
+    <p class="contact-label">Repository</p>
+    <p class="contact-title">GitHub <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Browse the source code behind my projects and research.</p>
+  </a>
+  <a class="contact-card reveal" href="mailto:randytranhong@gmail.com">
+    <p class="contact-label">Direct</p>
+    <p class="contact-title">Email <span class="contact-arrow">→</span></p>
+    <p class="contact-desc">Reach out directly to chat about research or collaboration.</p>
+  </a>
+</div>
+
 ## Photos
 {: .section-title}
 
@@ -374,43 +414,3 @@ I am interested in decoding neural signals and interfacing with the brain. My ca
   startAuto();
 })();
 </script>
-
-## Featured Stories
-{: .section-title}
-
-<div class="story-card reveal" onclick="window.open('https://www.hws.edu/news/2026/randy-hong-uc-davis.aspx', '_blank')">
-  <img src="images/arm_pose.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
-  <div>
-    <strong style="font-size: 17px;">Randy Hong '26 Built a Mind-Controlled Prosthetic Arm. Next Stop: UC Davis.</strong>
-    <p style="margin: 6px 0 0; font-size: 15px; color: #666;">HWS Office of Communications</p>
-  </div>
-</div>
-
-<div class="story-card" onclick="window.open('https://www.possefoundation.org/news-and-events/hws-commencement-speaker-begins-next-chapter-in-neuroscience', '_blank')">
-  <img src="images/commencement_speaker.jpg" alt="Article thumbnail" style="width: 140px; height: 140px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">
-  <div>
-    <strong style="font-size: 17px;">HWS Commencement Speaker Begins Next Chapter in Neuroscience</strong>
-    <p style="margin: 6px 0 0; font-size: 15px; color: #666;">The Posse Foundation</p>
-  </div>
-</div>
-
-## Contact Me
-{: .section-title}
-
-<div class="contact-links">
-  <a class="contact-card reveal" href="https://www.linkedin.com/in/randy-hong/" target="_blank">
-    <p class="contact-label">Network</p>
-    <p class="contact-title">LinkedIn <span class="contact-arrow">→</span></p>
-    <p class="contact-desc">Connect with me for professional inquiries.</p>
-  </a>
-  <a class="contact-card reveal" href="https://github.com/randyhongg" target="_blank">
-    <p class="contact-label">Repository</p>
-    <p class="contact-title">GitHub <span class="contact-arrow">→</span></p>
-    <p class="contact-desc">Browse the source code behind my projects and research.</p>
-  </a>
-  <a class="contact-card reveal" href="mailto:randytranhong@gmail.com">
-    <p class="contact-label">Direct</p>
-    <p class="contact-title">Email <span class="contact-arrow">→</span></p>
-    <p class="contact-desc">Reach out directly to chat about research or collaboration.</p>
-  </a>
-</div>
